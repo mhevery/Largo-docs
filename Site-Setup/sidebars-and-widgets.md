@@ -1,5 +1,3 @@
-# Sidebars and Widgets 
-
 ## Sidebars:
 
 - Main, Single

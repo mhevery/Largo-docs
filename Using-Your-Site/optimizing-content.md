@@ -1,5 +1,3 @@
-# Optimizing Content
-
 ## Determining the word or phrase you want that page to rank for.
 ## Including that word or phrase in the TITLE and the URL.
 ## Including the word or phrase in your META-DESCRIPTION.

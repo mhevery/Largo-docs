@@ -1,5 +1,3 @@
-# Home Page Options
-
 ## Overall Homepage Layout
 
 ## Homepage Top

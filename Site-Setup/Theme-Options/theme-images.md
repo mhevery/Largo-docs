@@ -1,5 +1,3 @@
-# Theme Images
-
 ## Thumbnail
 
 ## Favicon

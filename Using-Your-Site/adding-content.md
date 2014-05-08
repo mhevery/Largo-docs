@@ -1,5 +1,3 @@
-# Adding Content
-
 ## Pages vs. posts
 
 ## Custom Taxonomies

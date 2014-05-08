@@ -1,5 +1,3 @@
-# Using Plugins
-
 ## Recommended Plugins (Appearance>Install Plugins)
 
 

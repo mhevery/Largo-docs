@@ -1,5 +1,3 @@
-# Formatting Content
-
 ## Examples (each section below contains link to example post)
 ## Headings and Paragraphs
 ## Photos and Video

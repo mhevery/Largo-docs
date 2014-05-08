@@ -1,5 +1,3 @@
-# Setup Checklist
-
 ## Banner images
 
 ## Thumbnail image

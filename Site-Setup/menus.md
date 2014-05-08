@@ -1,5 +1,3 @@
-# Menus
-
 Largo has the following menus:
 
 - Global Navigation

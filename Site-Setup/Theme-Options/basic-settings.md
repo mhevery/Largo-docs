@@ -1,5 +1,3 @@
-# Basic Settings
-
 ## Site Description
 ## Feed URL## 
 ## Donate Button## 

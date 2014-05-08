@@ -1,3 +1,2 @@
-# What's in /inc?
-
+`/inc`
 

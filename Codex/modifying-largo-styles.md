@@ -1,5 +1,3 @@
-# Modifying Largo Styles
-
 ## Child theme
 
 Create a [child theme](http://codex.wordpress.org/Child_Themes) and override Largo default styles using `style.css`
