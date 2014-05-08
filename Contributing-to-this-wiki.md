@@ -29,4 +29,6 @@ Files are named in sentence case with dashes separating words. Dashes will be st
 
 	## Official Plugin Name is a proper noun
 
+Menu interactions or series of buttons that should be clicked are done *in italics*:
 
+	Enable this feature in *Dashboard &gt; Appearance &gt; Theme Options &gt; Basic Settings*
