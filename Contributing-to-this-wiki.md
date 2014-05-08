@@ -32,3 +32,12 @@ Files are named in sentence case with dashes separating words. Dashes will be st
 Menu interactions or series of buttons that should be clicked are done *in italics*:
 
 	Enable this feature in *Dashboard &gt; Appearance &gt; Theme Options &gt; Basic Settings*
+
+## Formatting and links
+
+Per the [Gollum wiki](https://github.com/gollum/gollum/wiki), links use double brackets:
+
+    '[[Home]] links to the home page, because the page title is in double brackets.
+    '[[This links to the home page as well|Home]]
+    '[[What is displayed on the page|What is linked to]]
+    '[[Text|http://example.com]] if you don't want to use Markdown
