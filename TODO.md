@@ -5,7 +5,8 @@ TO DO:
 	- [ ] Formatting content
 		- probably better as links to sample content on Largo Project site
 	- [ ] Optimizing content
-	- [ ] Custom taxonomies
+	- [x] Custom taxonomies
+		- entry in glossary may need updating if option to have additional sidebars moves out of Appearance &gt; theme options
 - Site setup:
 	- [ ] General site settings
 	- [ ] Adding users
