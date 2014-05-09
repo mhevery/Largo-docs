@@ -1,14 +1,12 @@
 **This wiki is currently a work in progress.**
 
-To contribute, submit an issue on [INN/Largo-docs](https://github.com/INN/Largo-docs) or make a pull request there.
+This wiki is not editable by the general public. To contribute, submit an issue on [INN/Largo-docs](https://github.com/INN/Largo-docs) or make a pull request there. 
 
 ----------
 
 # Stylebook
 
 ## General style
-
-Every page has a header-on `h1` element, which in Markdown is a line starting with a `# `. Refer to the page in writing by this headline title. 
 
 Directories are named in Title Case with dashes joining words..
 
@@ -43,3 +41,11 @@ Per the [Gollum wiki](https://github.com/gollum/gollum/wiki), links use double b
     '[[This links to the home page as well|Home]]
     '[[What is displayed on the page|What is linked to]]
     '[[Text|http://example.com]] if you don't want to use Markdown
+    
+# Contributing
+
+Fork [INN/Largo-docs](https://github.com/INN/Largo-docs), make your changes, and submit a pull request. 
+
+Pages are written in [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) with [Gollum](https://github.com/gollum/gollum/wiki) syntax for images and internal links.
+
+
