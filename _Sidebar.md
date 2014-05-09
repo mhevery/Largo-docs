@@ -1,4 +1,4 @@
-- Using your site:
+- [[Using your site:]]
 	- [[Adding content]]
 	- [[Formatting content]]
 	- [[Optimizing content]]
