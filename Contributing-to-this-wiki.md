@@ -1,4 +1,6 @@
-This wiki is currently a work in progress. 
+**This wiki is currently a work in progress.**
+
+To contribute, submit an issue on [INN/Largo-docs](https://github.com/INN/Largo-docs) or make a pull request there.
 
 ----------
 
