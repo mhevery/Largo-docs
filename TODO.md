@@ -3,7 +3,9 @@ TO DO:
 - Using your site
 	- [ ] Adding content
 	- [ ] Formatting content
+		- probably better as links to sample content on Largo Project site
 	- [ ] Optimizing content
+	- [ ] Custom taxonomies
 - Site setup:
 	- [ ] General site settings
 	- [ ] Adding users
