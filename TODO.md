@@ -27,6 +27,7 @@ TO DO:
 	- [ ] Domain Mapping
 - Codex 
 	- [ ] Glossary
+		- brief overview of topic, links to in-depth definitions elsewhere in the wiki
 	- [x] Changelog
 	- [ ] Page templates 
 		- largo-specific, 
