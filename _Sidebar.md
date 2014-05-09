@@ -2,6 +2,7 @@
 	- [[Adding content]]
 	- [[Formatting content]]
 	- [[Optimizing content]]
+	- [[Custom taxonomies]]
 - Site setup:
 	- [[Setup checklist]]
 	- [[General settings]]
