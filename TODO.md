@@ -9,11 +9,11 @@ TO DO:
 		- entry in glossary may need updating if option to have additional sidebars moves out of Appearance &gt; theme options
 - Site setup:
 	- [ ] General site settings
-	- [ ] Adding users
-		- overview of permissions
-		- overview of how to add a new user
 	- [ ] Sidebars and widget areas
 		- Image is broken
+	- [x] Adding users
+		- overview of permissions
+		- overview of how to add a new user
 	- [x] Setup checklist
 	- [x] Theme options
 	- [x] Menus
