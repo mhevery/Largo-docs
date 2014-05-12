@@ -2,7 +2,7 @@
 
 The Largo theme has built in support for three sidebars and two footer widget areas. 
 
-![Sidebar and widget options, as seen in the WordPress 3.9 dashboard](./sidebars-and-widgets.png)
+[[sidebars-and-widgets.png]]
 
 Access and edit the these widget areas from the Appearance &gt; Widgets menu in the left sidebar of the WordPress admin interface.
 
