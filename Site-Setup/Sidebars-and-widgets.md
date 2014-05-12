@@ -23,7 +23,7 @@ The Largo theme includes a number of custom widgets we developed to ensure compa
 
 - **Footer Featured Posts**: 
 - **INN Member Stories**: An RSS feed of recent stories from INN members
-- **Largo Recent Posts**: 
+- **Largo Recent Posts**: Shows a set number of posts and can be limited to one category or none, limited by tags, limited by [[custom taxonomies|Custom taxonomies]], and limited by author
 - **Largo About Site**: Show the site description from your theme options page
 - **Largo Author Bio**: Show the author bio in a widget
 - **Largo Disclaimer Site**: Show the article disclaimer

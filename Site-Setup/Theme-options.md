@@ -47,7 +47,9 @@ If you would like posts set as sticky to appear in the sticky box on the homepag
 Largo supports three optinos for the bottom of the homepage:
 
 - A single-column list of recent posts with photos and excerpts
-- A two-column widget area
+- A two-column widget area: This creates a new widget area in *Appearance &gt; Widgets*, where the following widgets are recommended:
+	- Largo Featured Posts: shows a set number of featured posts
+	- Largo Recent Posts: shows a set number of posts and can be limited to one category or none, limited by tags, limited by [[custom taxonomies|Custom taxonomies]], and limited by author
 - Nothing whatsoever
 
 ### Homepage Display Options
