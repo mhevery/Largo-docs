@@ -13,7 +13,7 @@
 	- [[Using plugins]]
 - Codex:
 	- [[Glossary]]
-	- [[What is in the inc directory]]
+	- [[The contents of the inc directory]]
 	- [[Largo custom functions]]
 	- [[Hooks and filters]]
 	- [[Code snippets]]

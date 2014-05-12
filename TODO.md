@@ -30,7 +30,6 @@ TO DO:
 		- largo-specific, 
 		- wordpress basic, note if unstyled
 	- [ ] What's in /inc 
-		- rename file to "The contents of the inc directory", refer to as "The contents of /inc"
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
 	- [ ] Largo hooks and filters
