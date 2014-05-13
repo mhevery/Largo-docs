@@ -1,4 +1,4 @@
-WordPress theme custom functions are defined in `functions.php`. To make maintenance and the creatino of child themes easier, Largo splits its custom founctions out into separate files in the `/inc` directory. 
+	WordPress theme custom functions are defined in `functions.php`. To make maintenance and the creatino of child themes easier, Largo splits its custom founctions out into separate files in the `/inc` directory. 
 
 ## Miscellaneous functions:
 
@@ -18,7 +18,7 @@ WordPress theme custom functions are defined in `functions.php`. To make mainten
 	- adds "INN Network News" for members and nonmembers, an RSS feed from http://feeds.feedburner.com/INNArticles
 	- adds Largo log to login page
 	- adds Largo credit line to admin footer
-	- hides the Link Manager menu item that []was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager) but supported for legacy reasons
+	- hides the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager) but supported for legacy reasons
 - `editor.php`: 
 - `enqueue.php`: 
 - `featured-content.php`: 
