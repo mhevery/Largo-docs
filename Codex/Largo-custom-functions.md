@@ -55,9 +55,31 @@
 - `largo_dashboard_member_news()`: Widget that displays three items from http://feeds.feedburner.com/INNMemberInvestigations Found in `/inc/dashboard.php`.
 - `largo_dashboard_quick_links()`: Links to Largo Project documentation at http://largoproject.org. Found in `/inc/dashboard.php`.
 
+**E**
+
+- `largo_enqueue_js()`: Enqueues javascript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
+- `largo_enqueue_admin_scripts()`: Enqueues javascript and CSS for the admin dashboard. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
+
 **F**
 
-- `largo_full_text_feed()`: Creates a full-text RSS feed at hxxp://example.org/?feed=fulltext (even if the site is using excerpts in the main feed) Found in `/inc/custom-feeds.php`.
+- `largo_full_text_feed()`: Creates a full-text RSS feed at hxxp://example.org/?feed=fulltext (even if the site is using excerpts in the main feed). Found in `/inc/custom-feeds.php`.
+- `largo_footer_js()`: Social media scripts, loaded in the footer. Found in `/inc/enqueue.php`.
+	- Google Plus
+	- Twitter
+	- Facebook
+	
+**G**
+
+- `largo_get_featured_posts( $args = array() )`: Gets featured posts, from a customizable taxonomy. Found in `/inc/featured-content.php`.
+	- Defaults: 
+- `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
+- `largo_google_analytics()`: Add Google Analytics code to the footer. You must add your GA ID to the theme settings for this to work, in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/enqueue.php`.
+
+**H**
+
+- `largo_header_js()`: outputs javascript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
+- `largo_have_featured_posts()`: Determines if there are any featured posts. Found in `/inc/featured-content.php`.
+- `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
 
 **M**
 
@@ -68,6 +90,9 @@
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
 
+**S** 
+
+- `largo_scrub_sticky_posts( $after, $before )`: If a post is marked as sticky, this unsticks any other sticky posts on the blog, so that we only have one stickey post at a time. Found in `/inc/featured-content.php`.
 **T**
 
 - `largo_tinymce_config( $init )`: Removes  weid span tags inserted by TinyMCE. Found in `/inc/editor.php`.

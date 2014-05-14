@@ -21,10 +21,15 @@
 	- adds "INN Network News" for members and nonmembers, an RSS feed from http://feeds.feedburner.com/INNArticles
 	- adds Largo log to login page
 	- adds Largo credit line to admin footer
-	- hides the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager) but supported for legacy reasons
+	- hides the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager) but supported for legacy reasons.
 - `editor.php`: Adds the TinyMCE plugin  to insert modules into posts.
-- `enqueue.php`: 
+- `enqueue.php`: Hooks for javascript and CSS.
 - `featured-content.php`: 
+	- gets the featured posts
+	- gets the main feature
+	- ensures that there can be only one sticky post
+	- determines if there are featured posts on archive pages
+	- determines if there are featured posts on the homepage
 - `header-footer.php`: 
 - `home-template-functions.php`: 
 - `home-templates.php`: 
