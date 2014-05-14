@@ -5,11 +5,14 @@
 - `ad-codes.php`: If you have the [Ad Codes Manager](http://wordpress.org/extend/plugins/ad-code-manager/) plugin installed, this provides:
 	- some additional whitelisting
 	- ad tag locations for Largo
-- `cached-core-functions.php`: caches the `wp_nav_menu` for all tag and category pages used in the nav menus, and tracks when the nav menus were last edited
+- `cached-core-functions.php`: 
+	- caches the `wp_nav_menu` for all tag and category pages used in the nav menus
+	- tracks when the nav menus were last edited
 - `custom-feeds.php`:
 	- creates a full-text RSS feed
 	- creates a feed for easy Mailchimp RSS import, using `feed-mailchimp.php` from the template directory (the root directory of the Largo theme). 
 - `custom-less-variables.php`: If Custom LESS is enabled in *Appearance &gt; Theme Options &gt; Advanced*, then `functions.php` includes this file. 
+	- defines class `Largo_Custom_Less_Variables`
 	- compiles custom LESS
 	- provides UI for testing and publishing custom LESS
 - `dashboard.php`: customizes admin dashobard for members and nonmembers
