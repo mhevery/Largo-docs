@@ -22,7 +22,7 @@
 	- adds Largo log to login page
 	- adds Largo credit line to admin footer
 	- hides the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager) but supported for legacy reasons
-- `editor.php`: 
+- `editor.php`: Adds the TinyMCE plugin  to insert modules into posts.
 - `enqueue.php`: 
 - `featured-content.php`: 
 - `header-footer.php`: 
