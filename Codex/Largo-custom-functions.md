@@ -1,3 +1,5 @@
+Sorted alphabetically. If a function is prefixed with "largo," the prefix is ignored. 
+
 **A**
 
 - `largo_acm_default_url( $url )`: Sets a default ad network URL for the [Ad Code Manager plugin](http://wordpress.org/extend/plugins/ad-code-manager/). Currently a placeholder. Found in `inc/ad-codes.php`.
@@ -14,6 +16,7 @@
 **C**
 
 - `largo_cached_nav_menu( $args = array(), $prime_cache = false )`: Wrapper function around `wp_nav_menu()` that will cache the wp_nav_menu for all tag/category pages used in the nav menus. Found in `inc/cached-core-functions.php`. 
+- `largo_copyright_message()`: Copyright message for the footer. Found in `/inc/header-footer.php`. 
 - `largo_custom_less_variables_init()`: Sets which LESS files will be combiled into CSS files. Found in `inc/custom-less-variables.php`.
 	- Default settings:
 		- files: 'carousel.less', 'editor-style.less', 'style.less', 'top-stories.less'
@@ -77,6 +80,7 @@
 
 **H**
 
+- `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
 - `largo_header_js()`: outputs javascript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
 - `largo_have_featured_posts()`: Determines if there are any featured posts. Found in `/inc/featured-content.php`.
 - `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
@@ -93,6 +97,10 @@
 **S** 
 
 - `largo_scrub_sticky_posts( $after, $before )`: If a post is marked as sticky, this unsticks any other sticky posts on the blog, so that we only have one stickey post at a time. Found in `/inc/featured-content.php`.
+- `largo_seo()`: SEO tags for the `<head>`, including noindex and additional Google News tags. Found in `/inc/header-footer.php`.
+- `largo_shortcut_icons()`: Outputs favicon and Apple Touch icons for `<head>`. Found in `/inc/header-footer.php`.
+- `largo_social_links()`: Outputs a `<li>` for each social media link in the theme options. Found in `/inc/header-footer.php`.
+
 **T**
 
 - `largo_tinymce_config( $init )`: Removes  weid span tags inserted by TinyMCE. Found in `/inc/editor.php`.

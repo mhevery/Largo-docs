@@ -30,6 +30,39 @@ TO DO:
 		- largo-specific, 
 		- wordpress basic, note if unstyled
 	- [ ] What's in /inc 
+		- [x] `ad-codes.php`: 
+		- [x] `cached-core-functions.php`: 
+		- [x] `custom-feeds.php`: 
+		- [x] `customizer`: 
+		- [x] `custom-less-variables.php`: 
+		- [x] `dashboard.php`: 
+		- [x] `editor.php`: 
+		- [x] `enqueue.php`: 
+		- [x] `featured-content.php`: 
+		- [x] `header-footer.php`: 
+		- [ ] `home-template-functions.php`: 
+		- [ ] `home-templates.php`: 
+		- [ ] `images.php`: 
+		- [ ] `largo-plugin-init.php`: 
+		- [ ] `metabox-api.php`: 
+		- [ ] `nav-menus.php`: 
+		- [ ] `open-graph.php`: 
+		- [ ] `picturefill`: 
+		- [ ] `post-meta.php`: 
+		- [ ] `post-tags.php`: 
+		- [ ] `post-templates.php`: 
+		- [ ] `related-content.php`: 
+		- [ ] `robots.php`: 
+		- [ ] `sidebars.php`: 
+		- [ ] `taxonomies.php`: 
+		- [ ] `term-icons.php`: 
+		- [ ] `term-meta.php`: 
+		- [ ] `term-sidebars.php`: 
+		- [ ] `update.php`: 
+		- [ ] `users.php`: 
+		- [ ] `widgets`: 
+		- [ ] `widgets.php`: 
+		- [ ] `wp-taxonomy-landing`: 
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
 	- [ ] Largo hooks and filters
@@ -41,10 +74,8 @@ TO DO:
 	- ? Future ?
 - Community forum 
 	- ? Future ?
-	
 
 - Video tutorials? 
-
 
 - HTML tags are stripped from post headlines
 - HTML tags are stripped from post body on the front page, so everything is a <p>

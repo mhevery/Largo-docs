@@ -30,7 +30,7 @@
 	- ensures that there can be only one sticky post
 	- determines if there are featured posts on archive pages
 	- determines if there are featured posts on the homepage
-- `header-footer.php`: 
+- `header-footer.php`: Contains the header, the footer copyright text, social links, favicon, SEO tags, and removes some spare elements from `<head>`. 
 - `home-template-functions.php`: 
 - `home-templates.php`: 
 - `images.php`: 
