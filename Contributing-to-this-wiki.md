@@ -1,6 +1,6 @@
 **This wiki is currently a work in progress.**
 
-This wiki is not editable by the general public. To contribute, submit an issue on [INN/Largo-docs](https://github.com/INN/Largo-docs) or make a pull request there. 
+This wiki is not editable by the general public. To contribute, submit an issue on [INN/Largo-docs](https://github.com/INN/Largo-docs) or make a pull request there. A list of items that need to be completed can be found in [[TODO]].
 
 ----------
 
