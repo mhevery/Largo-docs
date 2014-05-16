@@ -40,7 +40,7 @@ TO DO:
 		- [x] `enqueue.php`: 
 		- [x] `featured-content.php`: 
 		- [x] `header-footer.php`: 
-		- [ ] `home-template-functions.php`: 
+		- [x] `home-template-functions.php`: 
 		- [ ] `home-templates.php`: 
 		- [ ] `images.php`: 
 		- [ ] `largo-plugin-init.php`: 

@@ -84,6 +84,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
 - `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
 - `largo_header_js()`: outputs JavaScript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
+- `largo_home_hero_side_series()`: Gets the various posts for the homepage hero-side-series template. Found in `/inc/home-template-functions.php`.
+- `largo_home_single_top()`: Gets the post to display at the top of the home single template. Found in `/inc/home-template-functions.php`.
 
 **M**
 

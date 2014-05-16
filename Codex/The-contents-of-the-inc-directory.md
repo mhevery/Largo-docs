@@ -31,7 +31,7 @@
 	- determines if there are featured posts on archive pages
 	- determines if there are featured posts on the homepage
 - `header-footer.php`: Contains the header, the footer copyright text, social links, favicon, SEO tags, and removes some spare elements from `<head>`. 
-- `home-template-functions.php`: 
+- `home-template-functions.php`: Functions to get the single post for the home-single template and to get the series posts for the hero-side-series template. 
 - `home-templates.php`: 
 - `images.php`: 
 - `largo-plugin-init.php`: 
