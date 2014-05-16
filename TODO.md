@@ -41,7 +41,7 @@ TO DO:
 		- [x] `featured-content.php`: 
 		- [x] `header-footer.php`: 
 		- [x] `home-template-functions.php`: 
-		- [ ] `home-templates.php`: 
+		- [x] `home-templates.php`: 
 		- [ ] `images.php`: 
 		- [ ] `largo-plugin-init.php`: 
 		- [ ] `metabox-api.php`: 

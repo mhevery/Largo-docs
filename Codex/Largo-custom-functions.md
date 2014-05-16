@@ -61,6 +61,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **E**
 
 - `largo_enqueue_admin_scripts()`: Enqueues JavaScript and CSS for the admin dashboard. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
+- `largo_enqueue_home_assets()`: Enqueues scripts and styles for the home page. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/home-templates.php`. 
 - `largo_enqueue_js()`: Enqueues JavaScript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
 
 **F**
@@ -105,6 +106,10 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_home_hero_side_series()`: Gets the various posts for the homepage hero-side-series template. Found in `/inc/home-template-functions.php`.
 - `largo_home_single_top()`: Gets the post to display at the top of the home single template. Found in `/inc/home-template-functions.php`.
 - `largo_home_template_path()`: Returns the full path to the HPH file of the current homepage template. Found in `/inc/home-templates.php`. 
+
+**L**
+
+- `largo_load_custom_template_functions()`: Loads `/inc/home-template-functions.php`. Found in `/inc/home-templates.php`. 
 
 **M**
 
