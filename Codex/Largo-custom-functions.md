@@ -8,6 +8,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_acm_whiltelisted_script_urls( $whitelisted_urls )`: Whitelists additional ad network URLs for the [Ad Code Manager plugin](http://wordpress.org/extend/plugins/ad-code-manager/). Found in `inc/ad-codes.php`
 - `_largo_action_wp_update_nav_menu()`: Tracks when nav menus were last edited, to make cache purging for `largo_cached_nav_menu` easier. Found in `inc/cached-core-functions.php`. 
 - `largo_ad_tags_ids( $ad_tag_ids )`: Adds ad tags for the [Ad Code Manager plugin](http://wordpress.org/extend/plugins/ad-code-manager/). Found in `inc/ad-codes.php`. 
+- `largo_add_dont_miss_label( $items, $args )`: Prepends static label to the beginning of the "Don't Miss" header area, as set in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/nav-menus.php`. 
+- `largo_add_footer_menu_label( $items, $args )`: Prepends static lable to the beginning of the footer menu area, as set in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/nav-menus.php`. 
 - `largo_add_mce_plugin( $plugin_array )`: Adds `/js/tinymce/plugins/largo/editor_plugin.js` to the plugin array. Found in `inc/editor.php`
 - `largo_add_mce_buttons()`: If the user has enabled rich editing, then this filters `mce_external_plugins` with `largo_add_mce_plugin` and filters `mce_buttons` with `largo_register_mce_buttons`. Found in `/inc/editor.php`.
 - `largo_add_meta_box( $id, $title, $callbacks = array(), $post_types = 'post', $context = 'advanced', $priority = 'default' )`: Defines a metabox container. Found in `/inc/metabox-api.php`.
@@ -15,6 +17,10 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
 - `largo_attachment_image_link_remove_filter( $content )`: Filters `'the_content'` and removes links to attachments. Found in `/inc/images.php`.
+
+**B**
+
+- class `Bootstrap_Walker_Nav_Menu`: Extends `Walker_Nav_Menu`. It's an enhanced mnu walker that supports up to second-level dropdown menus using appropriate markup for Bootstrap. Found in `/inc/nav-menus.php`. 
 
 **C**
 
@@ -61,6 +67,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_dashboard_network_news()`: Widget that displays one item from http://feeds.feedburner.com/INNArticles. Found in `/inc/dashboard.php`.
 - `largo_dashboard_member_news()`: Widget that displays three items from http://feeds.feedburner.com/INNMemberInvestigations Found in `/inc/dashboard.php`.
 - `largo_dashboard_quick_links()`: Links to Largo Project documentation at http://largoproject.org. Found in `/inc/dashboard.php`.
+- `largo_donate_button()`: Output a donate button, based on theme options. Found in `/inc/nav-menus.php`. 
 
 **E**
 

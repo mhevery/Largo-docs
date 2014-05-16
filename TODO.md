@@ -45,7 +45,7 @@ TO DO:
 		- [x] `images.php`: 
 		- [x] `largo-plugin-init.php`: 
 		- [x] `metabox-api.php`: 
-		- [ ] `nav-menus.php`: 
+		- [x] `nav-menus.php`: 
 		- [ ] `open-graph.php`: 
 		- [ ] `picturefill`: 
 		- [ ] `post-meta.php`: 

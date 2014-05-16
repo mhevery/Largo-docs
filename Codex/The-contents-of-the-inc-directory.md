@@ -36,7 +36,7 @@
 - `images.php`: Removes `<a>` tags around attachments, returns the home icon, clears the home icon cache. 
 - `largo-plugin-init.php`: Registers Largo's required plugins, has example code that can be used by child themes to register required plugins. 
 - `metabox-api.php`: Defines the custom post metaboxes, provides a way to add a field to a metabox container. 
-- `nav-menus.php`: 
+- `nav-menus.php`: Donation button, "Don't Miss" label, footer nav label, enhanced menu walker supporting second-level dropdown menus. 
 - `open-graph.php`: 
 - `picturefill`: 
 - `post-meta.php`: 
