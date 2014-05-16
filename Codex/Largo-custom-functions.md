@@ -75,6 +75,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 - `largo_get_featured_posts( $args = array() )`: Gets featured posts, from a customizable taxonomy. Found in `/inc/featured-content.php`.
 	- Defaults: 
+	
+		```
 		'showposts' => 3,
         'offset' 	=> 0,
         'orderby' 	=> 'date',
@@ -87,6 +89,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 			)
 		),
         'ignore_sticky_posts' => 1,
+        ```
 
 - `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
 - `largo_google_analytics()`: Add Google Analytics code to the footer. You must add your GA ID to the theme settings for this to work, in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/enqueue.php`.
