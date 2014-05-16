@@ -16,9 +16,9 @@ Directories are named in Title Case with dashes joining words..
 
 Files are named in sentence case with dashes separating words. Dashes will be stripped from the filename and used as the wiki article name. The file extension will be stripped and the file name will become the URL of that page in the wiki. 
 
-    This-is-a-Wiki-Page.md    <- Filename
-    This is a Wiki Page       <- Article name
-    This-is-a-Wiki-Page       <- URL
+    This-is-a-Largo-wiki-page.md    <- Filename
+    This is a Largo wiki page       <- Article name
+    This-is-a-Largo-wiki-page       <- URL
 
 
 ## Typography
@@ -32,15 +32,21 @@ Files are named in sentence case with dashes separating words. Dashes will be st
 Menu interactions or series of buttons that should be clicked are done *in italics*:
 
 	Enable this feature in *Dashboard &gt; Appearance &gt; Theme Options &gt; Basic Settings*
+	
+Functions and filenames use `code tags`
+
+	- `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
 
 ## Formatting and links
 
-Per the [Gollum wiki](https://github.com/gollum/gollum/wiki), links use double brackets:
+Per the [Gollum wiki](https://github.com/gollum/gollum/wiki), links between pages use double brackets around the page title:
 
     '[[Home]] links to the home page, because the page title is in double brackets.
     '[[This links to the home page as well|Home]]
     '[[What is displayed on the page|What is linked to]]
-    '[[Text|http://example.com]] if you don't want to use Markdown
+    '[[Text|http://example.com]] if you don't want to use Markdown's [text](http://example.com)
+
+<!-- the ' before the [[ is so Gollum doesn't linkify these links. Gollum ignores Markdown escaping conventions -->
     
 # Contributing
 

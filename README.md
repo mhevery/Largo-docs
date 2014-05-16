@@ -6,7 +6,7 @@ For stable documentation, see [largoproject.org](http://largoproject.org/).
 
 For guides on contributing to this wiki, see [Contributing-to-this-wiki.md](Contributing-to-this-wiki.md).
 
-For a list of areas that need contribution, see TODO.md
+For a list of areas that need contribution, see [TODO.md](TODO.md)
 
 ## Updating the INN/Largo wiki
 
