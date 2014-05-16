@@ -32,9 +32,9 @@
 	- determines if there are featured posts on the homepage
 - `header-footer.php`: Contains the header, the footer copyright text, social links, favicon, SEO tags, and removes some spare elements from `<head>`. 
 - `home-template-functions.php`: Functions to get the single post for the home-single template and to get the series posts for the hero-side-series template. 
-- `home-templates.php`: 
-- `images.php`: 
-- `largo-plugin-init.php`: 
+- `home-templates.php`: Finds homepage templates, finds their thumbnails, loads them.
+- `images.php`: Removes `<a>` tags around attachments, returns the home icon, clears the home icon cache. 
+- `largo-plugin-init.php`: Registers Largo's required plugins, has example code that can be used by child themes to register required plugins. 
 - `metabox-api.php`: 
 - `nav-menus.php`: 
 - `open-graph.php`: 

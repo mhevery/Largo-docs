@@ -12,10 +12,12 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_add_mce_buttons()`: If the user has enabled rich editing, then this filters `mce_external_plugins` with `largo_add_mce_plugin` and filters `mce_buttons` with `largo_register_mce_buttons`. Found in `/inc/editor.php`.
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
+- `largo_attachment_image_link_remove_filter( $content )`: Filters `'the_content'` and removes links to attachments. Found in `/inc/images.php`.
 
 **C**
 
 - `largo_cached_nav_menu( $args = array(), $prime_cache = false )`: Wrapper function around `wp_nav_menu()` that will cache the wp_nav_menu for all tag/category pages used in the nav menus. Found in `inc/cached-core-functions.php`. 
+- `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
 - `largo_copyright_message()`: Copyright message for the footer. Found in `/inc/header-footer.php`. 
 - `largo_custom_less_variables_init()`: Sets which LESS files will be compiled into CSS files. Found in `inc/custom-less-variables.php`.
 	- Default settings:
@@ -104,6 +106,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
 - `largo_header_js()`: outputs JavaScript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
 - `largo_home_hero_side_series()`: Gets the various posts for the homepage hero-side-series template. Found in `/inc/home-template-functions.php`.
+- `largo_home_icon( $class='', $size = 'home-logo' )`: If there is a square icon logo, it returns the image. If there is not, it returns `<i class="icon-home ' . esc_attr( $class ) . '"></i>`. Found in `/inc/images.php`. 
 - `largo_home_single_top()`: Gets the post to display at the top of the home single template. Found in `/inc/home-template-functions.php`.
 - `largo_home_template_path()`: Returns the full path to the HPH file of the current homepage template. Found in `/inc/home-templates.php`. 
 
@@ -120,6 +123,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
 - `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
+- `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
 
 **S** 
 

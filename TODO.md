@@ -42,8 +42,8 @@ TO DO:
 		- [x] `header-footer.php`: 
 		- [x] `home-template-functions.php`: 
 		- [x] `home-templates.php`: 
-		- [ ] `images.php`: 
-		- [ ] `largo-plugin-init.php`: 
+		- [x] `images.php`: 
+		- [x] `largo-plugin-init.php`: 
 		- [ ] `metabox-api.php`: 
 		- [ ] `nav-menus.php`: 
 		- [ ] `open-graph.php`: 
