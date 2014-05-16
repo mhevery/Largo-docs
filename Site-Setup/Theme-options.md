@@ -44,7 +44,7 @@ If you would like posts set as sticky to appear in the sticky box on the homepag
 
 ### Homepage bottom templates
 
-Largo supports three optinos for the bottom of the homepage:
+Largo supports three options for the bottom of the homepage:
 
 - A single-column list of recent posts with photos and excerpts
 - A two-column widget area: This creates a new widget area in *Appearance &gt; Widgets*, where the following widgets are recommended:
@@ -68,6 +68,6 @@ These affect the presentation of the sidebar to the reader.
 
 - A third sidebar used only on archive pages (category, tag, author and series pages)
 - An additional sidebar widget region just above the site footer region
-- Fade the sidebar out on signle story pages as the reader scrolls
+- Fade the sidebar out on single story pages as the reader scrolls
 
 ## Advanced Options

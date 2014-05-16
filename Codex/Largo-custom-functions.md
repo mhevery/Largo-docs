@@ -17,7 +17,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 - `largo_cached_nav_menu( $args = array(), $prime_cache = false )`: Wrapper function around `wp_nav_menu()` that will cache the wp_nav_menu for all tag/category pages used in the nav menus. Found in `inc/cached-core-functions.php`. 
 - `largo_copyright_message()`: Copyright message for the footer. Found in `/inc/header-footer.php`. 
-- `largo_custom_less_variables_init()`: Sets which LESS files will be combiled into CSS files. Found in `inc/custom-less-variables.php`.
+- `largo_custom_less_variables_init()`: Sets which LESS files will be compiled into CSS files. Found in `inc/custom-less-variables.php`.
 	- Default settings:
 		- files: 'carousel.less', 'editor-style.less', 'style.less', 'top-stories.less'
 		- directories: get_template_directory() . '/less/', get_template_directory_uri() . '/css/'
@@ -60,8 +60,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **E**
 
-- `largo_enqueue_js()`: Enqueues javascript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
-- `largo_enqueue_admin_scripts()`: Enqueues javascript and CSS for the admin dashboard. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
+- `largo_enqueue_js()`: Enqueues JavaScript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
+- `largo_enqueue_admin_scripts()`: Enqueues JavaScript and CSS for the admin dashboard. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
 
 **F**
 
@@ -81,13 +81,13 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **H**
 
 - `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
-- `largo_header_js()`: outputs javascript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
+- `largo_header_js()`: outputs JavaScript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
 - `largo_have_featured_posts()`: Determines if there are any featured posts. Found in `/inc/featured-content.php`.
 - `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
 
 **M**
 
-- `largo_mailchimp_rss()`: Creates a custom RSS feed for Mailchip's RSS feed import, including thumbnail images. References `/feed-mailchimp.rss`. Use the `*|RSSITEM:IMAGE|*` merge tag in your MailChimp template. Found in `/inc/cached-core-functions.php`. 
+- `largo_mailchimp_rss()`: Creates a custom RSS feed for MailChimp's RSS feed import, including thumbnail images. References `/feed-mailchimp.rss`. Use the `*|RSSITEM:IMAGE|*` merge tag in your MailChimp template. Found in `/inc/cached-core-functions.php`. 
 - `largo_module_shortcode( $atts, $content, $code )`: Adds the shortcode module, used for pullquotes and asides within posts. Included for backwards compatibility; no longer used. Found in `/inc/editor.php`.
 
 **R**
@@ -96,14 +96,14 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **S** 
 
-- `largo_scrub_sticky_posts( $after, $before )`: If a post is marked as sticky, this unsticks any other sticky posts on the blog, so that we only have one stickey post at a time. Found in `/inc/featured-content.php`.
+- `largo_scrub_sticky_posts( $after, $before )`: If a post is marked as sticky, this unsticks any other sticky posts on the blog, so that we only have one sticky post at a time. Found in `/inc/featured-content.php`.
 - `largo_seo()`: SEO tags for the `<head>`, including noindex and additional Google News tags. Found in `/inc/header-footer.php`.
 - `largo_shortcut_icons()`: Outputs favicon and Apple Touch icons for `<head>`. Found in `/inc/header-footer.php`.
 - `largo_social_links()`: Outputs a `<li>` for each social media link in the theme options. Found in `/inc/header-footer.php`.
 
 **T**
 
-- `largo_tinymce_config( $init )`: Removes  weid span tags inserted by TinyMCE. Found in `/inc/editor.php`.
+- `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
 
 
 		

@@ -4,7 +4,7 @@ Largo requires a PHP version >=5.3.0.
 
 ## Banner images
 
-To accomodate a number of screen sizes, the Largo theme requires three image sizes for the top banner and automatically chooses the correct image size based on the size of a user's browser window.
+To accommodate a number of screen sizes, the Largo theme requires three image sizes for the top banner and automatically chooses the correct image size based on the size of a user's browser window.
 
 - 1170 by 120 px - for most desktop/laptop computers
 - 980 by 150 px - for small desktops, most tablets, large phones

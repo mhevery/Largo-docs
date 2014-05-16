@@ -18,9 +18,9 @@ TO DO:
 		- needs fleshing out on plugins but otherwise okay
 - Installation docs
 	- http://largoproject.org/setup/download-and-installation/
-	- See gdoc for discussion of this section
-	- [ ] DL+install Wordpress
-	- [ ] DL+install Largo Theme
+	- See Google Doc for discussion of this section
+	- [ ] download + install Wordpress
+	- [ ] download + install Largo Theme
 	- [ ] Domain Mapping
 - Codex 
 	- [ ] Glossary
