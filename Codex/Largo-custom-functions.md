@@ -21,12 +21,15 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **B**
 
 - class `Bootstrap_Walker_Nav_Menu`: Extends `Walker_Nav_Menu`. It's an enhanced mnu walker that supports up to second-level dropdown menus using appropriate markup for Bootstrap. Found in `/inc/nav-menus.php`. 
+- `largo_byline_meta_box_display()`: Contents for the byline metabox. Found in `/inc/post-meta.php`. 
 
 **C**
 
 - `largo_cached_nav_menu( $args = array(), $prime_cache = false )`: Wrapper function around `wp_nav_menu()` that will cache the wp_nav_menu for all tag/category pages used in the nav menus. Found in `inc/cached-core-functions.php`. 
+- `largo_change_default_hidden_metaboxes( $hidden, $screen )`: Shows all metaboxes in the edit interface by default. Found in `/inc/post-meta.php`. 
 - `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
 - `largo_copyright_message()`: Copyright message for the footer. Found in `/inc/header-footer.php`. 
+- `largo_custom_disclaimer_meta_box_display()`: Content for the Disclaimer metabox. `Found in /inc/post-meta.php`.
 - `largo_custom_less_variables_init()`: Sets which LESS files will be compiled into CSS files. Found in `inc/custom-less-variables.php`.
 	- Default settings:
 		- files: 'carousel.less', 'editor-style.less', 'style.less', 'top-stories.less'
@@ -37,6 +40,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 		- `largo_clv_register_directory_paths( $less_dir, $css_dir_uri )`: Set the file path for the directory with the LESS files and URI for the directory with the outputted CSS.
 		- `largo_clv_register_variables_less_file( $variables_less_file )`: Sets the variable.less file
 - `largo_custom_login_logo()`: Adds the Largo logo to the login page. Found in `inc/cached-core-functions.php`. 
+- `largo_custom_related_meta_box_display()`: Content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
 
 **D**
 
@@ -77,6 +81,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **F**
 
+- `largo_featured_video_meta_box_display()`: Content for the Featured Video metabox. Found in `/inc/post-meta.php`. 
 - `largo_full_text_feed()`: Creates a full-text RSS feed at hxxp://example.org/?feed=fulltext (even if the site is using excerpts in the main feed). Found in `/inc/custom-feeds.php`.
 - `largo_footer_js()`: Social media scripts, loaded in the footer. Found in `/inc/enqueue.php`.
 	- Google Plus
@@ -121,6 +126,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **L**
 
+- `largo_layout_meta_box_display()`: Contents for the Layout Options metabox. Found in `/inc/post-meta.php`
 - `largo_load_custom_template_functions()`: Loads `/inc/home-template-functions.php`. Found in `/inc/home-templates.php`. 
 
 **M**
@@ -130,6 +136,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `_largo_metaboxes_content( $post, $callbacks = array() )`: Private function to generate fields and mark up within Largo metaboxes. Found in `/inc/metabox-api.php`.
 - `_largo_metaboxes_generate()`: Private function to actually generate the metaboxes, via add_action. Found in `/inc/metabox-api.php`.
 - `largo_module_shortcode( $atts, $content, $code )`: Adds the shortcode module, used for pullquotes and asides within posts. Included for backwards compatibility; no longer used. Found in `/inc/editor.php`.
+- `largo_move_author_to_publish_metabox()`: Moved author dropdown to the "Publish" metabox so it's easier to find. Found in `/inc/post-meta.php`.
 
 **O**
 
@@ -141,6 +148,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_register_meta_input( $input_names, $presave_fn )`: Call this function from within a `largo_add_meta_field` callback to register an input as a post meta field. Found in `/inc/metabox-api.php`. 
 - `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
 - `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
+- `largo_remove_default_post_screen_metaboxes()`: Hides the tackbacks, slug, revisions, author and comments metaboxes to clean up the post and page edit screens. 
 
 **S** 
 
@@ -152,6 +160,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **T**
 
 - `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
+- `largo_top_tag_display()`: Additional content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
+- `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
 - `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
 
 

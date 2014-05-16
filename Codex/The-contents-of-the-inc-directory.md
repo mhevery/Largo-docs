@@ -35,11 +35,14 @@
 - `home-templates.php`: Finds homepage templates, finds their thumbnails, loads them.
 - `images.php`: Removes `<a>` tags around attachments, returns the home icon, clears the home icon cache. 
 - `largo-plugin-init.php`: Registers Largo's required plugins, has example code that can be used by child themes to register required plugins. 
-- `metabox-api.php`: Defines the custom post metaboxes, provides a way to add a field to a metabox container. 
+- `metabox-api.php`: Defines the custom post metaboxes in the editor, provides a way to add a field to a metabox container. 
 - `nav-menus.php`: Donation button, "Don't Miss" label, footer nav label, enhanced menu walker supporting second-level dropdown menus. 
 - `open-graph.php`: Generates the Open Graph tags, and parses Twitter URLs for usernames. 
-- `picturefill`: 
 - `post-meta.php`: 
+	- moves the author dropdown to the publish metabox
+	- removes some metaboxes from the edit screens
+	- shows all (unhides) all the other metaboxes by default
+	- adds some custom metaboxes to the post edit screens using the Largo Metabox API in `/inc/metabox-api.php` and provides their contents
 - `post-tags.php`: 
 - `post-templates.php`: 
 - `related-content.php`: 

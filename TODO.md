@@ -47,8 +47,7 @@ TO DO:
 		- [x] `metabox-api.php`: 
 		- [x] `nav-menus.php`: 
 		- [x] `open-graph.php`: 
-		- [ ] `picturefill`: 
-		- [ ] `post-meta.php`: 
+		- [x] `post-meta.php`: 
 		- [ ] `post-tags.php`: 
 		- [ ] `post-templates.php`: 
 		- [ ] `related-content.php`: 
