@@ -91,6 +91,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
         'ignore_sticky_posts' => 1,
         ```
 
+- `largo_get_home_templates()`: Scans theme and parent theme for homepage templates. Returns an array of templates, with friendly names as keys and arrays with 'path' and 'thumb' as values. Found in `/inc/home-templates.php`. 
+- `largo_get_home_thumb( $theme, $file )`: Returns the URL of the thumbnail image for a homepage template, or a default `/homepages/no-thumb.png`. Found in `/inc/home-templates.php`. 
 - `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
 - `largo_google_analytics()`: Add Google Analytics code to the footer. You must add your GA ID to the theme settings for this to work, in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/enqueue.php`.
 
@@ -102,6 +104,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_header_js()`: outputs JavaScript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
 - `largo_home_hero_side_series()`: Gets the various posts for the homepage hero-side-series template. Found in `/inc/home-template-functions.php`.
 - `largo_home_single_top()`: Gets the post to display at the top of the home single template. Found in `/inc/home-template-functions.php`.
+- `largo_home_template_path()`: Returns the full path to the HPH file of the current homepage template. Found in `/inc/home-templates.php`. 
 
 **M**
 
@@ -111,6 +114,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **R**
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
+- `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
 
 **S** 
 
