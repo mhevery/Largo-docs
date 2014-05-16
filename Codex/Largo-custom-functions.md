@@ -131,6 +131,10 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `_largo_metaboxes_generate()`: Private function to actually generate the metaboxes, via add_action. Found in `/inc/metabox-api.php`.
 - `largo_module_shortcode( $atts, $content, $code )`: Adds the shortcode module, used for pullquotes and asides within posts. Included for backwards compatibility; no longer used. Found in `/inc/editor.php`.
 
+**O**
+
+- `largo_opengraph()`: Adds appropriate Open Graph, Twitter Cards, and Google Publisher tags to the header based on the page type displayed. Found in `/inc/open-graph.php`. 
+
 **R**
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
@@ -148,6 +152,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **T**
 
 - `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
+- `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
 
 
 		

@@ -37,7 +37,7 @@
 - `largo-plugin-init.php`: Registers Largo's required plugins, has example code that can be used by child themes to register required plugins. 
 - `metabox-api.php`: Defines the custom post metaboxes, provides a way to add a field to a metabox container. 
 - `nav-menus.php`: Donation button, "Don't Miss" label, footer nav label, enhanced menu walker supporting second-level dropdown menus. 
-- `open-graph.php`: 
+- `open-graph.php`: Generates the Open Graph tags, and parses Twitter URLs for usernames. 
 - `picturefill`: 
 - `post-meta.php`: 
 - `post-tags.php`: 
