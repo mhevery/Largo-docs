@@ -80,10 +80,10 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **H**
 
-- `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
-- `largo_header_js()`: outputs JavaScript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
 - `largo_have_featured_posts()`: Determines if there are any featured posts. Found in `/inc/featured-content.php`.
 - `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
+- `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
+- `largo_header_js()`: outputs JavaScript that determines which size of the header banner image to load, based on window width. Found in `/inc/enqueue.php`.
 
 **M**
 
