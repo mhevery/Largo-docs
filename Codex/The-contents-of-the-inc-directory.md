@@ -35,7 +35,7 @@
 - `home-templates.php`: Finds homepage templates, finds their thumbnails, loads them.
 - `images.php`: Removes `<a>` tags around attachments, returns the home icon, clears the home icon cache. 
 - `largo-plugin-init.php`: Registers Largo's required plugins, has example code that can be used by child themes to register required plugins. 
-- `metabox-api.php`: 
+- `metabox-api.php`: Defines the custom post metaboxes, provides a way to add a field to a metabox container. 
 - `nav-menus.php`: 
 - `open-graph.php`: 
 - `picturefill`: 

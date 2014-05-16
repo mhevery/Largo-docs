@@ -10,6 +10,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_ad_tags_ids( $ad_tag_ids )`: Adds ad tags for the [Ad Code Manager plugin](http://wordpress.org/extend/plugins/ad-code-manager/). Found in `inc/ad-codes.php`. 
 - `largo_add_mce_plugin( $plugin_array )`: Adds `/js/tinymce/plugins/largo/editor_plugin.js` to the plugin array. Found in `inc/editor.php`
 - `largo_add_mce_buttons()`: If the user has enabled rich editing, then this filters `mce_external_plugins` with `largo_add_mce_plugin` and filters `mce_buttons` with `largo_register_mce_buttons`. Found in `/inc/editor.php`.
+- `largo_add_meta_box( $id, $title, $callbacks = array(), $post_types = 'post', $context = 'advanced', $priority = 'default' )`: Defines a metabox container. Found in `/inc/metabox-api.php`.
+- `largo_add_meta_content( $callback, $box_id )`: Adds a field to a metabox container. Found in `/inc/metabox-api.php`.
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
 - `largo_attachment_image_link_remove_filter( $content )`: Filters `'the_content'` and removes links to attachments. Found in `/inc/images.php`.
@@ -117,11 +119,15 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 **M**
 
 - `largo_mailchimp_rss()`: Creates a custom RSS feed for MailChimp's RSS feed import, including thumbnail images. References `/feed-mailchimp.rss`. Use the `*|RSSITEM:IMAGE|*` merge tag in your MailChimp template. Found in `/inc/cached-core-functions.php`. 
+- `_largo_meta_box_save( $post_id )`: Private function to handle saving inputs registered with `largo_register_meta_input()`. Found in `/inc/metabox-api.php`.
+- `_largo_metaboxes_content( $post, $callbacks = array() )`: Private function to generate fields and mark up within Largo metaboxes. Found in `/inc/metabox-api.php`.
+- `_largo_metaboxes_generate()`: Private function to actually generate the metaboxes, via add_action. Found in `/inc/metabox-api.php`.
 - `largo_module_shortcode( $atts, $content, $code )`: Adds the shortcode module, used for pullquotes and asides within posts. Included for backwards compatibility; no longer used. Found in `/inc/editor.php`.
 
 **R**
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
+- `largo_register_meta_input( $input_names, $presave_fn )`: Call this function from within a `largo_add_meta_field` callback to register an input as a post meta field. Found in `/inc/metabox-api.php`. 
 - `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
 - `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
 
