@@ -31,15 +31,18 @@
 	- determines if there are featured posts on archive pages
 	- determines if there are featured posts on the homepage
 - `header-footer.php`: Contains the header, the footer copyright text, social links, favicon, SEO tags, and removes some spare elements from `<head>`. 
-- `home-template-functions.php`: 
-- `home-templates.php`: 
-- `images.php`: 
-- `largo-plugin-init.php`: 
-- `metabox-api.php`: 
-- `nav-menus.php`: 
-- `open-graph.php`: 
-- `picturefill`: 
+- `home-template-functions.php`: Functions to get the single post for the home-single template and to get the series posts for the hero-side-series template. 
+- `home-templates.php`: Finds homepage templates, finds their thumbnails, loads them.
+- `images.php`: Removes `<a>` tags around attachments, returns the home icon, clears the home icon cache. 
+- `largo-plugin-init.php`: Registers Largo's required plugins, has example code that can be used by child themes to register required plugins. 
+- `metabox-api.php`: Defines the custom post metaboxes in the editor, provides a way to add a field to a metabox container. 
+- `nav-menus.php`: Donation button, "Don't Miss" label, footer nav label, enhanced menu walker supporting second-level dropdown menus. 
+- `open-graph.php`: Generates the Open Graph tags, and parses Twitter URLs for usernames. 
 - `post-meta.php`: 
+	- moves the author dropdown to the publish metabox
+	- removes some metaboxes from the edit screens
+	- shows all (unhides) all the other metaboxes by default
+	- adds some custom metaboxes to the post edit screens using the Largo Metabox API in `/inc/metabox-api.php` and provides their contents
 - `post-tags.php`: 
 - `post-templates.php`: 
 - `related-content.php`: 

@@ -40,15 +40,14 @@ TO DO:
 		- [x] `enqueue.php`: 
 		- [x] `featured-content.php`: 
 		- [x] `header-footer.php`: 
-		- [ ] `home-template-functions.php`: 
-		- [ ] `home-templates.php`: 
-		- [ ] `images.php`: 
-		- [ ] `largo-plugin-init.php`: 
-		- [ ] `metabox-api.php`: 
-		- [ ] `nav-menus.php`: 
-		- [ ] `open-graph.php`: 
-		- [ ] `picturefill`: 
-		- [ ] `post-meta.php`: 
+		- [x] `home-template-functions.php`: 
+		- [x] `home-templates.php`: 
+		- [x] `images.php`: 
+		- [x] `largo-plugin-init.php`: 
+		- [x] `metabox-api.php`: 
+		- [x] `nav-menus.php`: 
+		- [x] `open-graph.php`: 
+		- [x] `post-meta.php`: 
 		- [ ] `post-tags.php`: 
 		- [ ] `post-templates.php`: 
 		- [ ] `related-content.php`: 
