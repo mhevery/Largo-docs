@@ -64,6 +64,7 @@ TO DO:
 		- [ ] `wp-taxonomy-landing`: 
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
+	- [ ] Largo custom classes
 	- [ ] Largo hooks and filters
 	- [ ] Code snippets
 	- [ ] Modifying theme options

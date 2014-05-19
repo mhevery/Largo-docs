@@ -24,7 +24,6 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 **B**
 
-- class `Bootstrap_Walker_Nav_Menu`: Extends `Walker_Nav_Menu`. It's an enhanced mnu walker that supports up to second-level dropdown menus using appropriate markup for Bootstrap. Found in `/inc/nav-menus.php`. 
 - `largo_byline( $echo = true, $exclude_date = false )`: Outputs custom byline and link if set, otherwise outputs author link and post date. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 - `largo_byline_meta_box_display()`: Contents for the byline metabox. Found in `/inc/post-meta.php`. 
 
