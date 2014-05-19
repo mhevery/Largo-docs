@@ -19,6 +19,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_add_term_meta( $taxonomy, $term_id, $meta_key, $meta_value, $unique=false )`: Adds metadata to a term's meta post. Found in `/inc/term-meta.php`.
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
+- `largo_admin_users_caps( $caps, $cap, $user_id, $args )`: In a multisite network, allow site admins to edit user profiles. H/t http://thereforei.am/2011/03/15/how-to-allow-administrators-to-edit-users-in-a-wordpress-network/. Found in `/ince/users.php`. 
 - `largo_attachment_image_link_remove_filter( $content )`: Filters `'the_content'` and removes links to attachments. Found in `/inc/images.php`.
 - `largo_author( $echo = true )`: Get the author name when custom byline optinos are set. `$echo` is a boolean that determines whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 - `largo_author_link( $echo = true, $post = null )`: Gets the author link when custom byline options are set. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
@@ -43,6 +44,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_change_default_hidden_metaboxes( $hidden, $screen )`: Shows all metaboxes in the edit interface by default. Found in `/inc/post-meta.php`. 
 - `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
 - `largo_comment( $comment, $args, $depth )`: Template for comments and pingbacks, used as a callback by `wp_list_comments()` for displaying the comments. Found in `/inc/post-tags.php`.
+- `largo_contactmethods( $contactmethods )`: Modifies the user profile screen, removes AIM, Yahoo IM and Jabber, adds Twitter, Facebook and LinkedIn, adds format hint for Google+. Found in `/inc/users.php`. 
 - `largo_content_nav( $nav_id, $in_same_cat = false )`: Displays navigation to next/previous pages when applicable. Found in `/inc/post-tags.php`.
 - `largo_copyright_message()`: Copyright message for the footer. Found in `/inc/header-footer.php`. 
 - `largo_custom_disclaimer_meta_box_display()`: Content for the Disclaimer metabox. `Found in /inc/post-meta.php`.
@@ -96,6 +98,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 **E**
 
+- `largo_edit_permission_check()`: Checks that both the editing user and the user being edited are members of the blog and prevents the super-admin from being edited. Found in `/inc/users.php`. 
 - `largo_enqueue_admin_scripts()`: Enqueues JavaScript and CSS for the admin dashboard. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
 - `largo_enqueue_home_assets()`: Enqueues scripts and styles for the home page. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/home-templates.php`. 
 - `largo_enqueue_js()`: Enqueues JavaScript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
@@ -106,6 +109,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 - `largo_featured_video_meta_box_display()`: Content for the Featured Video metabox. Found in `/inc/post-meta.php`. 
 - `largo_filter_get_post_related_topics( $topics, $max )`: Found in `/inc/related-content.php`. 
+- `largo_filter_guest_author_fields( $fields_to_return, $groups )`: Similar to `largo_contactmethods`, but for guest authors in the [Co-Authors Plus plugin](http://wordpress.org/plugins/co-authors-plus/). Found in `/inc/users.php`. 
 - `largo_footer_js()`: Social media scripts, loaded in the footer. Found in `/inc/enqueue.php`.
 	- Google Plus
 	- Twitter

@@ -59,7 +59,7 @@
 - `term-meta.php`: Adds custom meta fields functionality to terms, using a custom post type as a proxy to bridge between a `term_id` and a `post_meta` field. 
 - `term-sidebars.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy.
 - `update.php`: 
-- `users.php`: 
+- `users.php`: User profiles for normal users and Co-Authors Plus guest authors, multisite user edit permissions for admins. 
 - `widgets`: 
 - `widgets.php`: 
 - `wp-taxonomy-landing`: 

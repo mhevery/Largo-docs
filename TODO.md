@@ -58,7 +58,7 @@ TO DO:
 		- [x] `term-meta.php`: 
 		- [x] `term-sidebars.php`: 
 		- [ ] `update.php`: 
-		- [ ] `users.php`: 
+		- [x] `users.php`: 
 		- [ ] `widgets`: 
 		- [ ] `widgets.php`: 
 		- [ ] `wp-taxonomy-landing`: 
