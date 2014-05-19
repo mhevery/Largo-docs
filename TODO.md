@@ -51,7 +51,7 @@ TO DO:
 		- [x] `post-tags.php`: 
 		- [x] `post-templates.php`: 
 		- [x] `related-content.php`: 
-		- [ ] `robots.php`: 
+		- [x] `robots.php`: 
 		- [ ] `sidebars.php`: 
 		- [ ] `taxonomies.php`: 
 		- [ ] `term-icons.php`: 

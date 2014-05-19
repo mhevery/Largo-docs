@@ -185,6 +185,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
 - `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
 - `largo_remove_default_post_screen_metaboxes()`: Hides the tackbacks, slug, revisions, author and comments metaboxes to clean up the post and page edit screens. 
+- `largo_robots()`: Defaults for robots.txt. See http://codex.wordpress.org/Search_Engine_Optimization_for_WordPress#Robots.txt_Optimization. Found in `/inc/robots.php`. 
 
 **S** 
 
