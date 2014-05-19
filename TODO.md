@@ -57,7 +57,7 @@ TO DO:
 		- [x] `term-icons.php`: 
 		- [x] `term-meta.php`: 
 		- [x] `term-sidebars.php`: 
-		- [ ] `update.php`: 
+		- [x] `update.php`: 
 		- [x] `users.php`: 
 		- [ ] `widgets`: 
 		- [ ] `widgets.php`: 

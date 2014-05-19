@@ -42,6 +42,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 	- `$exclude`: array of term ids to exclude
 - `largo_category_archive_posts( $query )`: Helper for getting posts in a category archive, sorted with featured posts first. Found in `/inc/taxonomies.php`.
 - `largo_change_default_hidden_metaboxes( $hidden, $screen )`: Shows all metaboxes in the edit interface by default. Found in `/inc/post-meta.php`. 
+- `largo_check_deprecated_widgets()`: Checks for deprecated widgets and posts an alert, as part of `/inc/update.php`.
 - `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
 - `largo_comment( $comment, $args, $depth )`: Template for comments and pingbacks, used as a callback by `wp_list_comments()` for displaying the comments. Found in `/inc/post-tags.php`.
 - `largo_contactmethods( $contactmethods )`: Modifies the user profile screen, removes AIM, Yahoo IM and Jabber, adds Twitter, Facebook and LinkedIn, adds format hint for Google+. Found in `/inc/users.php`. 
@@ -94,6 +95,8 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_dashboard_member_news()`: Widget that displays three items from http://feeds.feedburner.com/INNMemberInvestigations Found in `/inc/dashboard.php`.
 - `largo_dashboard_quick_links()`: Links to Largo Project documentation at http://largoproject.org. Found in `/inc/dashboard.php`.
 - `largo_delete_term_meta( $taxonomy, $term_id, $meta_key, $meta_value='' )`: Deletes metadata from a term's meta post'. Found in `/inc/term-meta.php`.
+- `largo_deprecated_footer_widget()`: Notice that the Largo Footer Featured Posts widget is deprecated, as part of `/inc/update.php`. 
+- `largo_deprecated_sidebar_widget()`: Notice that the Largo Sidebar Featured Posts widget is deprecated, as part of `/inc/update.php`. 
 - `largo_donate_button()`: Output a donate button, based on theme options. Found in `/inc/nav-menus.php`. 
 
 **E**
@@ -162,9 +165,11 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_home_icon( $class='', $size = 'home-logo' )`: If there is a square icon logo, it returns the image. If there is not, it returns `<i class="icon-home ' . esc_attr( $class ) . '"></i>`. Found in `/inc/images.php`. 
 - `largo_home_single_top()`: Gets the post to display at the top of the home single template. Found in `/inc/home-template-functions.php`.
 - `largo_home_template_path()`: Returns the full path to the HPH file of the current homepage template. Found in `/inc/home-templates.php`. 
+- `largo_home_transition()`: Converts old theme option `homepage_top` to new `home_template` as part of `/inc/update.php`. 
 
 **I**
 
+- `largo_instantiate_widget( $kind, $instance_settings, $region )`: Insets a widget programmatically. This is **slightly dangerous**, as it makes some assumptions about existing plugins. If `$instance_settings` are wrong, bad things might happen. Used in `/inc/update.php`. 
 - `is_post_template( $template = '' )`: By default, determines if the post is a a single post template. Optionally determines if the post is a `$template` template. Found in `/inc/post-templates.php`.
 
 **L**
@@ -183,16 +188,22 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_module_shortcode( $atts, $content, $code )`: Adds the shortcode module, used for pullquotes and asides within posts. Included for backwards compatibility; no longer used. Found in `/inc/editor.php`.
 - `largo_move_author_to_publish_metabox()`: Moved author dropdown to the "Publish" metabox so it's easier to find. Found in `/inc/post-meta.php`.
 
+**N**
+
+- `largo_need_updates()`: Checks if new widgets need to be placed by checking old theme settings. In 0.4, many 0.3 theme settings were spun off into widgets. This only works for Largo versions => 0.3.0. Found in `/inc/update.php`. 
+
 **O**
 
 - `largo_opengraph()`: Adds appropriate Open Graph, Twitter Cards, and Google Publisher tags to the header based on the page type displayed. Found in `/inc/open-graph.php`. 
 
 **P**
 
+- `largo_perform_update()`: Performs various database updates upon Largo version change. Found in `/inc/update.php`. 
 - `largo_post_in_series( $post_id = NULL )`: Determins whether a post is in a series. Found in `/inc/taxonomies.php`.
 - `largo_post_social_links( $echo = true )`: Outputs Facebook, Twitter, email, share and print utility links on article pages. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 - `post_type_icon( $options = array() )`: Returns the post-type icon for a post. 
- -`post_templates_dropdown()`: Builds a dropdown of all post templates. Found in `/inc/post-templates.php`.
+- `post_templates_dropdown()`: Builds a dropdown of all post templates. Found in `/inc/post-templates.php`.
+ 
 **R**
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
@@ -240,7 +251,13 @@ Looking for something? `Ctrl-F` or `⌘-F`
 **U**
 
 - `largo_update_term_meta( $taxonomy, $term_id, $meta_key, $meta_value, $prev_value='' )`: Updates metadata on a term's meta post. Found in `/inc/term-meta.php`.
+- `largo_update_widgets()`: Puts new widgets into sidebars as appropriate based on old theme options, as part of `/inc/update.php`. 
+
+**V**
+
+- `largo_version()`: Returns the current version of Largo. Found in `/inc/update.php`. 
 
 **W**
 
+- `largo_widget_in_region( $widget_name, $region = 'article-bottom' )`: Checks to see if a given widget is in a given region already, as part of `/inc/update.php`. 
 - `largo_widget_settings()`: Render widget setting fields on the widget page for Largo Sidebar Options. Found in `/inc/sidebars.php`. 
