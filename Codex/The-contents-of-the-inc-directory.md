@@ -43,17 +43,23 @@
 	- removes some metaboxes from the edit screens
 	- shows all (unhides) all the other metaboxes by default
 	- adds some custom metaboxes to the post edit screens using the Largo Metabox API in `/inc/metabox-api.php` and provides their contents
-- `post-tags.php`: 
-- `post-templates.php`: 
-- `related-content.php`: 
-- `robots.php`: 
-- `sidebars.php`: 
-- `taxonomies.php`: 
-- `term-icons.php`: 
-- `term-meta.php`: 
-- `term-sidebars.php`: 
-- `update.php`: 
-- `users.php`: 
+- `post-tags.php`: Functions related to the post page: publish time, author name, author link, post byline, post social links, author gravatar image, post pagination, post excerpts, next/previous post, post comments, post-type icon.
+- `post-templates.php`: Adds ability to select a custom post template for single posts. 
+- `related-content.php`: Functions and the class `Largo_Related` that provide related posts for a post. 
+- `robots.php`: Defaults for robots.txt. 
+- `sidebars.php`: Registers sidebars, builds a dropdown menu of them.
+- `taxonomies.php`: Functions relating to custom taxonomies: 
+	- register the prominence and series custom taxonomies
+	- determine if a post is in a series
+	- output custom taxonomy terms attached to a posts
+	- output format for series custom taxonomy at bottom of single posts
+	- sort posts in proper landing-page order for a series
+	- sort posts featured-first for category archive
+- `term-icons.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy. 
+- `term-meta.php`: Adds custom meta fields functionality to terms, using a custom post type as a proxy to bridge between a `term_id` and a `post_meta` field. 
+- `term-sidebars.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy.
+- `update.php`: Tools for updating from Largo 0.3 to 0.4. 
+- `users.php`: User profiles for normal users and Co-Authors Plus guest authors, multisite user edit permissions for admins. 
 - `widgets`: 
 - `widgets.php`: 
 - `wp-taxonomy-landing`: 

@@ -50,8 +50,18 @@ Per the [Gollum wiki](https://github.com/gollum/gollum/wiki), links between page
     
 # Contributing
 
-Fork [INN/Largo-docs](https://github.com/INN/Largo-docs), make your changes, and submit a pull request. 
+The easiest way to improve this wiki is to [file an issue](https://github.com/INN/Largo-docs/issues) with your proposed change.
+
+If you want to take it a bit further, [fork INN/Largo-docs](https://github.com/INN/Largo-docs/fork), make your changes, test them, and submit a pull request. 
 
 Pages are written in [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) with [Gollum](https://github.com/gollum/gollum/wiki) syntax for images and internal links.
 
+## Testing your commit
 
+1. [Fork the INN/Largo repository.](https://github.com/INN/Largo/fork)
+2. Go to https://github.com/yourname/Largo/settings and enable Wikis, under "Features".
+3. Go to https://github.com/yourname/Largo/wiki and copy the "Clone this wiki locally" link.
+4. Go to the directory that has your clone of the Largo-wiki repository. 
+5. `git remote add wiki git@github.com:benlk/Largo.wiki.git`
+6. `git push -u wiki yourbranch:master` - where `yourbranch` is the branch containing your edits. You're pusing it to the master branch of yourname/Largo/wiki because the only branch displayed on the wiki is the master branch. 
+7. Check your edits at https://github.com/yourname/Largo/wiki. 

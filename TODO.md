@@ -48,22 +48,23 @@ TO DO:
 		- [x] `nav-menus.php`: 
 		- [x] `open-graph.php`: 
 		- [x] `post-meta.php`: 
-		- [ ] `post-tags.php`: 
-		- [ ] `post-templates.php`: 
-		- [ ] `related-content.php`: 
-		- [ ] `robots.php`: 
-		- [ ] `sidebars.php`: 
-		- [ ] `taxonomies.php`: 
-		- [ ] `term-icons.php`: 
-		- [ ] `term-meta.php`: 
-		- [ ] `term-sidebars.php`: 
-		- [ ] `update.php`: 
-		- [ ] `users.php`: 
+		- [x] `post-tags.php`: 
+		- [x] `post-templates.php`: 
+		- [x] `related-content.php`: 
+		- [x] `robots.php`: 
+		- [x] `sidebars.php`: 
+		- [x] `taxonomies.php`: 
+		- [x] `term-icons.php`: 
+		- [x] `term-meta.php`: 
+		- [x] `term-sidebars.php`: 
+		- [x] `update.php`: 
+		- [x] `users.php`: 
 		- [ ] `widgets`: 
 		- [ ] `widgets.php`: 
 		- [ ] `wp-taxonomy-landing`: 
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
+	- [ ] Largo custom classes
 	- [ ] Largo hooks and filters
 	- [ ] Code snippets
 	- [ ] Modifying theme options

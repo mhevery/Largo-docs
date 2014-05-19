@@ -14,6 +14,7 @@
 - Codex:
 	- [[Glossary]]
 	- [[The contents of the inc directory]]
+	- [[Largo custom classes]]
 	- [[Largo custom functions]]
 	- [[Hooks and filters]]
 	- [[Code snippets]]
