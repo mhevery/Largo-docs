@@ -201,17 +201,18 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
 - `largo_top_tag_display()`: Additional content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
 - `largo_top_term( $options = array() )`: Returns (or echoes) the 'top term' for a post, falling back to a category if a top term was not specified in the editor. Found in `/inc/related-content.php`.  
-
-	```
-	$defaults = array(
-		'post' => get_the_ID(),
-		'echo' => TRUE,
-		'link' => TRUE,
-		'use_icon' => FALSE,
-		'wrapper' => 'span',
-		'exclude' => array(),	//only for compatibility with largo_categories_and_tags
-	);
-	```
+	- Defaults:
+	
+		```
+		$defaults = array(
+			'post' => get_the_ID(),
+			'echo' => TRUE,
+			'link' => TRUE,
+			'use_icon' => FALSE,
+			'wrapper' => 'span',
+			'exclude' => array(),	//only for compatibility with largo_categories_and_tags
+		);
+		```
 	
 - `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
 - `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
