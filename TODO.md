@@ -49,7 +49,7 @@ TO DO:
 		- [x] `open-graph.php`: 
 		- [x] `post-meta.php`: 
 		- [x] `post-tags.php`: 
-		- [ ] `post-templates.php`: 
+		- [x] `post-templates.php`: 
 		- [ ] `related-content.php`: 
 		- [ ] `robots.php`: 
 		- [ ] `sidebars.php`: 

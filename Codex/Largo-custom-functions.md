@@ -121,6 +121,8 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 - `largo_get_home_templates()`: Scans theme and parent theme for homepage templates. Returns an array of templates, with friendly names as keys and arrays with 'path' and 'thumb' as values. Found in `/inc/home-templates.php`. 
 - `largo_get_home_thumb( $theme, $file )`: Returns the URL of the thumbnail image for a homepage template, or a default `/homepages/no-thumb.png`. Found in `/inc/home-templates.php`. 
+- `get_post_template( $template )`: Filters the single template value, replaces it with the template chosen by the user, if they choose one. Found in `/inc/post-templates.php`.
+- `get_post_templates()`: Scans template files of active theme, returns an array of `[Template Name => {file}.php]`. Found in `/inc/post-templates.php`.
 - `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
 - `largo_google_analytics()`: Add Google Analytics code to the footer. You must add your GA ID to the theme settings for this to work, in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/enqueue.php`.
 
@@ -135,6 +137,10 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_home_icon( $class='', $size = 'home-logo' )`: If there is a square icon logo, it returns the image. If there is not, it returns `<i class="icon-home ' . esc_attr( $class ) . '"></i>`. Found in `/inc/images.php`. 
 - `largo_home_single_top()`: Gets the post to display at the top of the home single template. Found in `/inc/home-template-functions.php`.
 - `largo_home_template_path()`: Returns the full path to the HPH file of the current homepage template. Found in `/inc/home-templates.php`. 
+
+**I**
+
+- `is_post_template( $template = '' )`: By default, determines if the post is a a single post template. Optionally determines if the post is a `$template` template. Found in `/inc/post-templates.php`.
 
 **L**
 
@@ -158,7 +164,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 - `largo_post_social_links( $echo = true )`: Outputs Facebook, Twitter, email, share and print utility links on article pages. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 - `post_type_icon( $options = array() )`: Returns the post-type icon for a post. 
-
+ -`post_templates_dropdown()`: Builds a dropdown of all post templates. Found in `/inc/post-templates.php`.
 **R**
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
