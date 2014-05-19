@@ -54,7 +54,7 @@ TO DO:
 		- [x] `robots.php`: 
 		- [x] `sidebars.php`: 
 		- [x] `taxonomies.php`: 
-		- [ ] `term-icons.php`: 
+		- [x] `term-icons.php`: 
 		- [ ] `term-meta.php`: 
 		- [ ] `term-sidebars.php`: 
 		- [ ] `update.php`: 

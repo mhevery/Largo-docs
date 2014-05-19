@@ -55,7 +55,7 @@
 	- output format for series custom taxonomy at bottom of single posts
 	- sort posts in proper landing-page order for a series
 	- sort posts featured-first for category archive
-- `term-icons.php`: 
+- `term-icons.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy. 
 - `term-meta.php`: 
 - `term-sidebars.php`: 
 - `update.php`: 
