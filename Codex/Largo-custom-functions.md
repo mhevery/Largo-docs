@@ -102,11 +102,11 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 - `largo_featured_video_meta_box_display()`: Content for the Featured Video metabox. Found in `/inc/post-meta.php`. 
 - `largo_filter_get_post_related_topics( $topics, $max )`: Found in `/inc/related-content.php`. 
-- `largo_full_text_feed()`: Creates a full-text RSS feed at hxxp://example.org/?feed=fulltext (even if the site is using excerpts in the main feed). Found in `/inc/custom-feeds.php`.
 - `largo_footer_js()`: Social media scripts, loaded in the footer. Found in `/inc/enqueue.php`.
 	- Google Plus
 	- Twitter
 	- Facebook
+- `largo_full_text_feed()`: Creates a full-text RSS feed at hxxp://example.org/?feed=fulltext (even if the site is using excerpts in the main feed). Found in `/inc/custom-feeds.php`.
 	
 **G**
 
