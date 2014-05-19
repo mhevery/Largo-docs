@@ -1,4 +1,6 @@
-Sorted alphabetically. If a function is prefixed with "largo," the prefix is ignored. 
+Sorted alphabetically. If a function is prefixed with "largo," the prefix is ignored.
+
+Looking for something? `Ctrl-F` or `⌘-F`
 
 **A**
 
