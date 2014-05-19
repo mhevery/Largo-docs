@@ -43,7 +43,7 @@
 	- removes some metaboxes from the edit screens
 	- shows all (unhides) all the other metaboxes by default
 	- adds some custom metaboxes to the post edit screens using the Largo Metabox API in `/inc/metabox-api.php` and provides their contents
-- `post-tags.php`: 
+- `post-tags.php`: Functions related to the post page: publish time, author name, author link, post byline, post social links, author gravatar image, post pagination, post excerpts, next/previous post, post comments, post-type icon
 - `post-templates.php`: 
 - `related-content.php`: 
 - `robots.php`: 

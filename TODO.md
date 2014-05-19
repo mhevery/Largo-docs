@@ -48,7 +48,7 @@ TO DO:
 		- [x] `nav-menus.php`: 
 		- [x] `open-graph.php`: 
 		- [x] `post-meta.php`: 
-		- [ ] `post-tags.php`: 
+		- [x] `post-tags.php`: 
 		- [ ] `post-templates.php`: 
 		- [ ] `related-content.php`: 
 		- [ ] `robots.php`: 

@@ -17,10 +17,13 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
 - `largo_attachment_image_link_remove_filter( $content )`: Filters `'the_content'` and removes links to attachments. Found in `/inc/images.php`.
+- `largo_author( $echo = true )`: Get the author name when custom byline optinos are set. `$echo` is a boolean that determines whether the string is echoed or returned. Found in `/inc/post-tags.php`.
+- `largo_author_link( $echo = true, $post = null )`: Gets the author link when custom byline options are set. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 
 **B**
 
 - class `Bootstrap_Walker_Nav_Menu`: Extends `Walker_Nav_Menu`. It's an enhanced mnu walker that supports up to second-level dropdown menus using appropriate markup for Bootstrap. Found in `/inc/nav-menus.php`. 
+- `largo_byline( $echo = true, $exclude_date = false )`: Outputs custom byline and link if set, otherwise outputs author link and post date. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 - `largo_byline_meta_box_display()`: Contents for the byline metabox. Found in `/inc/post-meta.php`. 
 
 **C**
@@ -28,6 +31,8 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_cached_nav_menu( $args = array(), $prime_cache = false )`: Wrapper function around `wp_nav_menu()` that will cache the wp_nav_menu for all tag/category pages used in the nav menus. Found in `inc/cached-core-functions.php`. 
 - `largo_change_default_hidden_metaboxes( $hidden, $screen )`: Shows all metaboxes in the edit interface by default. Found in `/inc/post-meta.php`. 
 - `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
+- `largo_comment( $comment, $args, $depth )`: Template for comments and pingbacks, used as a callback by `wp_list_comments()` for displaying the comments. Found in `/inc/post-tags.php`.
+- `largo_content_nav( $nav_id, $in_same_cat = false )`: Displays navigation to next/previous pages when applicable. Found in `/inc/post-tags.php`.
 - `largo_copyright_message()`: Copyright message for the footer. Found in `/inc/header-footer.php`. 
 - `largo_custom_disclaimer_meta_box_display()`: Content for the Disclaimer metabox. `Found in /inc/post-meta.php`.
 - `largo_custom_less_variables_init()`: Sets which LESS files will be compiled into CSS files. Found in `inc/custom-less-variables.php`.
@@ -41,6 +46,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 		- `largo_clv_register_variables_less_file( $variables_less_file )`: Sets the variable.less file
 - `largo_custom_login_logo()`: Adds the Largo logo to the login page. Found in `inc/cached-core-functions.php`. 
 - `largo_custom_related_meta_box_display()`: Content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
+- `largo_custom_wp_link_pages( $args )`: Adds pagination to ingle posts. Based on http://bavotasan.com/2012/a-better-wp_link_pages-for-wordpress/, accepts as `$args` [the same array of arguments](http://codex.wordpress.org/Function_Reference/wp_link_pages) as `wp_link_pages`. 
 
 **D**
 
@@ -78,6 +84,9 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 - `largo_enqueue_admin_scripts()`: Enqueues JavaScript and CSS for the admin dashboard. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
 - `largo_enqueue_home_assets()`: Enqueues scripts and styles for the home page. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/home-templates.php`. 
 - `largo_enqueue_js()`: Enqueues JavaScript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
+- `largo_entry_content( $post )`: Replaces `the_content()` with paginated content if `<!--nextpage-->` is used in the post.
+- `largo_excerpt( $the_post=null, $sentence_count = 5, $use_more = true, $more_link = '', $echo = true, $strip_tags = true, $strip_shortcodes = true )`: Makes a nicer-looking post exceprt, regardless of how excerpts were used in the past. Found in `/inc/post-tags.php`.
+- `largo_trim_sentences( $input, $sentences, $echo = false )`: Attempts to trum input at sentence breaks, while escaping titles and other things that normally use periods. Found in `/inc/post-tags.php`.
 
 **F**
 
@@ -115,6 +124,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **H**
 
+- `largo_has_gravatar( $email )`: Determines whether or not an author has a valid [Gravatar](http://codex.wordpress.org/Using_Gravatars) image, where `$email` is the author's email address. Found in `/inc/post-tags.php`.
 - `largo_have_featured_posts()`: Determines if there are any featured posts. Found in `/inc/featured-content.php`.
 - `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
 - `largo_header()`: outputs the header. Found in `/inc/header-footer.php`.
@@ -142,6 +152,11 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 - `largo_opengraph()`: Adds appropriate Open Graph, Twitter Cards, and Google Publisher tags to the header based on the page type displayed. Found in `/inc/open-graph.php`. 
 
+**P**
+
+- `largo_post_social_links( $echo = true )`: Outputs Facebook, Twitter, email, share and print utility links on article pages. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
+- `post_type_icon( $options = array() )`: Returns the post-type icon for a post. 
+
 **R**
 
 - `largo_register_mce_buttons( $buttons )`: Registers TinyMCE buttons. Found in `/inc/editor.php`.
@@ -159,6 +174,7 @@ Sorted alphabetically. If a function is prefixed with "largo," the prefix is ign
 
 **T**
 
+- `largo_time( $echo = true )`: For posts published less than 24 hours ago, show "time ago" instead of date, otherwise just use `get_the_date`. `$echo` controls whether the time is echoed or returned. Found in `/inc/post-tags.php`.
 - `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
 - `largo_top_tag_display()`: Additional content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
 - `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
