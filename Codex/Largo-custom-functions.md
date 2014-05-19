@@ -101,7 +101,6 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_enqueue_js()`: Enqueues JavaScript and CSS assets. For more information on enqueueing, see [wp_enqueue_style](http://codex.wordpress.org/Function_Reference/wp_enqueue_style) and [wp_enqueue_script](http://codex.wordpress.org/Function_Reference/wp_enqueue_script). Found in `/inc/enqueue.php`.
 - `largo_entry_content( $post )`: Replaces `the_content()` with paginated content if `<!--nextpage-->` is used in the post.
 - `largo_excerpt( $the_post=null, $sentence_count = 5, $use_more = true, $more_link = '', $echo = true, $strip_tags = true, $strip_shortcodes = true )`: Makes a nicer-looking post exceprt, regardless of how excerpts were used in the past. Found in `/inc/post-tags.php`.
-- `largo_trim_sentences( $input, $sentences, $echo = false )`: Attempts to trum input at sentence breaks, while escaping titles and other things that normally use periods. Found in `/inc/post-tags.php`.
 
 **F**
 
@@ -231,6 +230,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 		```
 	
 - `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
+- `largo_trim_sentences( $input, $sentences, $echo = false )`: Attempts to trum input at sentence breaks, while escaping titles and other things that normally use periods. Found in `/inc/post-tags.php`.
 - `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
 
 **U**
