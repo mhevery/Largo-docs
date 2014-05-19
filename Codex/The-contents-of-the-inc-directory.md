@@ -56,7 +56,7 @@
 	- sort posts in proper landing-page order for a series
 	- sort posts featured-first for category archive
 - `term-icons.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy. 
-- `term-meta.php`: 
+- `term-meta.php`: Adds custom meta fields functionality to terms, using a custom post type as a proxy to bridge between a `term_id` and a `post_meta` field. 
 - `term-sidebars.php`: 
 - `update.php`: 
 - `users.php`: 

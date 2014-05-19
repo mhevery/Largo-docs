@@ -55,7 +55,7 @@ TO DO:
 		- [x] `sidebars.php`: 
 		- [x] `taxonomies.php`: 
 		- [x] `term-icons.php`: 
-		- [ ] `term-meta.php`: 
+		- [x] `term-meta.php`: 
 		- [ ] `term-sidebars.php`: 
 		- [ ] `update.php`: 
 		- [ ] `users.php`: 

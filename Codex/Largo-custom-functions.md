@@ -16,6 +16,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_add_mce_buttons()`: If the user has enabled rich editing, then this filters `mce_external_plugins` with `largo_add_mce_plugin` and filters `mce_buttons` with `largo_register_mce_buttons`. Found in `/inc/editor.php`.
 - `largo_add_meta_box( $id, $title, $callbacks = array(), $post_types = 'post', $context = 'advanced', $priority = 'default' )`: Defines a metabox container. Found in `/inc/metabox-api.php`.
 - `largo_add_meta_content( $callback, $box_id )`: Adds a field to a metabox container. Found in `/inc/metabox-api.php`.
+- `largo_add_term_meta( $taxonomy, $term_id, $meta_key, $meta_value, $unique=false )`: Adds metadata to a term's meta post. Found in `/inc/term-meta.php`.
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
 - `largo_attachment_image_link_remove_filter( $content )`: Filters `'the_content'` and removes links to attachments. Found in `/inc/images.php`.
@@ -90,6 +91,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_dashboard_network_news()`: Widget that displays one item from http://feeds.feedburner.com/INNArticles. Found in `/inc/dashboard.php`.
 - `largo_dashboard_member_news()`: Widget that displays three items from http://feeds.feedburner.com/INNMemberInvestigations Found in `/inc/dashboard.php`.
 - `largo_dashboard_quick_links()`: Links to Largo Project documentation at http://largoproject.org. Found in `/inc/dashboard.php`.
+- `largo_delete_term_meta( $taxonomy, $term_id, $meta_key, $meta_value='' )`: Deletes metadata from a term's meta post'. Found in `/inc/term-meta.php`.
 - `largo_donate_button()`: Output a donate button, based on theme options. Found in `/inc/nav-menus.php`. 
 
 **E**
@@ -140,6 +142,8 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_get_series_posts( $series_id, $number = -1 )`: Helper function for getting posts in proper landing-page order for a series. Found in `/inc/taxonomies.php`.
 - `get_post_template( $template )`: Filters the single template value, replaces it with the template chosen by the user, if they choose one. Found in `/inc/post-templates.php`.
 - `get_post_templates()`: Scans template files of active theme, returns an array of `[Template Name => {file}.php]`. Found in `/inc/post-templates.php`.
+- `largo_get_term_meta( $taxonomy, $term_id, $meta_key, $single=false )`: Gets metafata for a term from the term meta post. Found in `/inc/term-meta.php`.
+- `largo_get_term_meta_post( $taxonomy, $term_id )`: Gets the proxy post for a given term. Found in `/inc/term-meta.php`.
 - `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
 - `largo_google_analytics()`: Add Google Analytics code to the footer. You must add your GA ID to the theme settings for this to work, in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/enqueue.php`.
 
@@ -193,6 +197,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
 - `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
 - `largo_register_sidebars()`: Registers sidebars and widget areas. Found in `/inc/sidebars.php`. 
+- `largo_register_term_meta_poost_type()`: Registers the proxy post type that bridges between a `term_id` and a `post_meta` field. Found in `/inc/term-meta.php`.
 - `largo_remove_default_post_screen_metaboxes()`: Hides the tackbacks, slug, revisions, author and comments metaboxes to clean up the post and page edit screens. 
 - `largo_robots()`: Defaults for robots.txt. See http://codex.wordpress.org/Search_Engine_Optimization_for_WordPress#Robots.txt_Optimization. Found in `/inc/robots.php`. 
 
@@ -227,6 +232,10 @@ Looking for something? `Ctrl-F` or `⌘-F`
 	
 - `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
 - `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
+
+**U**
+
+- `largo_update_term_meta( $taxonomy, $term_id, $meta_key, $meta_value, $prev_value='' )`: Updates metadata on a term's meta post. Found in `/inc/term-meta.php`.
 
 **W**
 
