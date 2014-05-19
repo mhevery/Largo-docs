@@ -47,7 +47,7 @@
 - `post-templates.php`: Adds ability to select a custom post template for single posts. 
 - `related-content.php`: Functions and the class `Largo_Related` that provide related posts for a post. 
 - `robots.php`: Defaults for robots.txt. 
-- `sidebars.php`: 
+- `sidebars.php`: Registers sidebars, builds a dropdown menu of them.
 - `taxonomies.php`: 
 - `term-icons.php`: 
 - `term-meta.php`: 

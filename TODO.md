@@ -52,7 +52,7 @@ TO DO:
 		- [x] `post-templates.php`: 
 		- [x] `related-content.php`: 
 		- [x] `robots.php`: 
-		- [ ] `sidebars.php`: 
+		- [x] `sidebars.php`: 
 		- [ ] `taxonomies.php`: 
 		- [ ] `term-icons.php`: 
 		- [ ] `term-meta.php`: 

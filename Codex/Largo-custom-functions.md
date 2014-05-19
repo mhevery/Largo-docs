@@ -55,6 +55,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 		- `largo_clv_register_variables_less_file( $variables_less_file )`: Sets the variable.less file
 - `largo_custom_login_logo()`: Adds the Largo logo to the login page. Found in `inc/cached-core-functions.php`. 
 - `largo_custom_related_meta_box_display()`: Content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
+- `largo_custom_sidebars_dropdown( $selected = '', $skip_default = false, $post_id = NULL )`: Builds a dropdown menu of custom sidebars. Used in the meta box on post/page edit screens and landing page edit screen. 
 - `largo_custom_wp_link_pages( $args )`: Adds pagination to ingle posts. Based on http://bavotasan.com/2012/a-better-wp_link_pages-for-wordpress/, accepts as `$args` [the same array of arguments](http://codex.wordpress.org/Function_Reference/wp_link_pages) as `wp_link_pages`. 
 
 **D**
@@ -158,11 +159,13 @@ Looking for something? `Ctrl-F` or `⌘-F`
 **L**
 
 - `largo_layout_meta_box_display()`: Contents for the Layout Options metabox. Found in `/inc/post-meta.php`
-- `largo_load_custom_template_functions()`: Loads `/inc/home-template-functions.php`. Found in `/inc/home-templates.php`. 
+- `largo_load_custom_template_functions()`: Loads `/inc/home-template-functions.php`. Found in `/inc/home-templates.php`.
+- `largo_load_of_script_for_widget()`: Loads scripts for options framework on the widgets. Found in `/inc/sidebars.php`.
 
 **M**
 
 - `largo_mailchimp_rss()`: Creates a custom RSS feed for MailChimp's RSS feed import, including thumbnail images. References `/feed-mailchimp.rss`. Use the `*|RSSITEM:IMAGE|*` merge tag in your MailChimp template. Found in `/inc/cached-core-functions.php`. 
+- `largo_make_slug( $string, $maxLength = 63 )`: Helper function to transform user-entered text into WordPress-compatible slugs. Found in `/inc/sidebars.php`. 
 - `_largo_meta_box_save( $post_id )`: Private function to handle saving inputs registered with `largo_register_meta_input()`. Found in `/inc/metabox-api.php`.
 - `_largo_metaboxes_content( $post, $callbacks = array() )`: Private function to generate fields and mark up within Largo metaboxes. Found in `/inc/metabox-api.php`.
 - `_largo_metaboxes_generate()`: Private function to actually generate the metaboxes, via add_action. Found in `/inc/metabox-api.php`.
@@ -184,6 +187,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_register_meta_input( $input_names, $presave_fn )`: Call this function from within a `largo_add_meta_field` callback to register an input as a post meta field. Found in `/inc/metabox-api.php`. 
 - `largo_register_home_sidebars()`: Registers the sidebars specified in the chosen homepage template, and sets the value for `$largo['home_rail']`. Found in `/inc/home-templates.php`. 
 - `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
+- `largo_register_sidebars()`: Registers sidebars and widget areas. Found in `/inc/sidebars.php`. 
 - `largo_remove_default_post_screen_metaboxes()`: Hides the tackbacks, slug, revisions, author and comments metaboxes to clean up the post and page edit screens. 
 - `largo_robots()`: Defaults for robots.txt. See http://codex.wordpress.org/Search_Engine_Optimization_for_WordPress#Robots.txt_Optimization. Found in `/inc/robots.php`. 
 
@@ -218,5 +222,6 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
 - `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
 
+**W**
 
-		
+- `largo_widget_settings()`: Render widget setting fields on the widget page for Largo Sidebar Options. Found in `/inc/sidebars.php`. 
