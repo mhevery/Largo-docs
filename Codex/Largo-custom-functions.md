@@ -31,6 +31,14 @@ Looking for something? `Ctrl-F` or `⌘-F`
 **C**
 
 - `largo_cached_nav_menu( $args = array(), $prime_cache = false )`: Wrapper function around `wp_nav_menu()` that will cache the wp_nav_menu for all tag/category pages used in the nav menus. Found in `inc/cached-core-functions.php`. 
+- `largo_categories_and_tags( $max = 5, $echo = true, $link = true, $use_icon = false, $separator = ', ', $item_wrapper = 'span', $exclude = array(), $rss = false )`: Returns or echoes a list of categories and tags. Found in `/inc/related-content.php`. 
+	- `$max`: int number of categories and tags to return
+	- `$echo`: bool echo the output or return it (default: echo)
+	- `$link`: bool return the tags and category links or just the terms themselves
+	- `$use_icon`: bool include the tag icon or not (used on `single.php`)
+	- `$separator`: string to use as a separator between list items
+	- `$item_wrapper`: string html tag to use as a wrapper for elements in the output
+	- `$exclude`: array of term ids to exclude
 - `largo_change_default_hidden_metaboxes( $hidden, $screen )`: Shows all metaboxes in the edit interface by default. Found in `/inc/post-meta.php`. 
 - `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
 - `largo_comment( $comment, $args, $depth )`: Template for comments and pingbacks, used as a callback by `wp_list_comments()` for displaying the comments. Found in `/inc/post-tags.php`.
@@ -93,6 +101,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 **F**
 
 - `largo_featured_video_meta_box_display()`: Content for the Featured Video metabox. Found in `/inc/post-meta.php`. 
+- `largo_filter_get_post_related_topics( $topics, $max )`: Found in `/inc/related-content.php`. 
 - `largo_full_text_feed()`: Creates a full-text RSS feed at hxxp://example.org/?feed=fulltext (even if the site is using excerpts in the main feed). Found in `/inc/custom-feeds.php`.
 - `largo_footer_js()`: Social media scripts, loaded in the footer. Found in `/inc/enqueue.php`.
 	- Google Plus
@@ -121,6 +130,10 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 - `largo_get_home_templates()`: Scans theme and parent theme for homepage templates. Returns an array of templates, with friendly names as keys and arrays with 'path' and 'thumb' as values. Found in `/inc/home-templates.php`. 
 - `largo_get_home_thumb( $theme, $file )`: Returns the URL of the thumbnail image for a homepage template, or a default `/homepages/no-thumb.png`. Found in `/inc/home-templates.php`. 
+- `largo_get_post_related_topics( $max = 5 )`: Provides topics (categories and tags) related to the post currently being considered. Found in `/inc/related-content.php`. 
+- `largo_get_recent_posts_for_term( $term, $max = 5, $min = 1 )`: Provides recent posts for a term object (category, tag, etc). If number of items is fewer than `$min`, returns `false`. Excludes the current post if we're inside [The Loop](http://codex.wordpress.org/The_Loop). Found in `/inc/related-content.php`. 
+- `largo_filter_get_recent_posts_for_term_query_args( $query_args, $term, $max, $min, $post )`: 
+- `largo_get_related_topics_for_category( $obj )`: Shows related tags and subcategories for each main category. Used on `category.php` to display a list of related terms. Found in `/inc/related-content.php`. 
 - `get_post_template( $template )`: Filters the single template value, replaces it with the template chosen by the user, if they choose one. Found in `/inc/post-templates.php`.
 - `get_post_templates()`: Scans template files of active theme, returns an array of `[Template Name => {file}.php]`. Found in `/inc/post-templates.php`.
 - `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
@@ -128,6 +141,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 **H**
 
+- `largo_has_categories_or_tags()`: Returns `true` if a post has tagor, or has a category other than 'Uncategorized'. 
 - `largo_has_gravatar( $email )`: Determines whether or not an author has a valid [Gravatar](http://codex.wordpress.org/Using_Gravatars) image, where `$email` is the author's email address. Found in `/inc/post-tags.php`.
 - `largo_have_featured_posts()`: Determines if there are any featured posts. Found in `/inc/featured-content.php`.
 - `largo_have_homepage_featured_posts()`: Determines if there are any featured posts on the homepage. Found in `/inc/featured-content.php`.
@@ -179,12 +193,27 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_seo()`: SEO tags for the `<head>`, including noindex and additional Google News tags. Found in `/inc/header-footer.php`.
 - `largo_shortcut_icons()`: Outputs favicon and Apple Touch icons for `<head>`. Found in `/inc/header-footer.php`.
 - `largo_social_links()`: Outputs a `<li>` for each social media link in the theme options. Found in `/inc/header-footer.php`.
+- `_subcategories_for_category( $cat_id )`: Returns an array of the subcategories of `$cat_id`. Found in `/inc/related-content.php`. 
 
 **T**
 
+- `_tags_associated_with_category( $cat_id, $max = 5)`: Gets a list of tags used in posts in this category, sorts by popularity, returns an array of the top `$max` tags. Found in `/inc/related-content.php`. 
 - `largo_time( $echo = true )`: For posts published less than 24 hours ago, show "time ago" instead of date, otherwise just use `get_the_date`. `$echo` controls whether the time is echoed or returned. Found in `/inc/post-tags.php`.
 - `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
 - `largo_top_tag_display()`: Additional content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
+- `largo_top_term( $options = array() )`: Returns (or echoes) the 'top term' for a post, falling back to a category if a top term was not specified in the editor. Found in `/inc/related-content.php`.  
+
+	```
+	$defaults = array(
+		'post' => get_the_ID(),
+		'echo' => TRUE,
+		'link' => TRUE,
+		'use_icon' => FALSE,
+		'wrapper' => 'span',
+		'exclude' => array(),	//only for compatibility with largo_categories_and_tags
+	);
+	```
+	
 - `largo_top_terms_js()`: Loads JavaScript for the top-terms selector in `largo_top_tag_display()`. Found in `/inc/post-meta.php`. 
 - `largo_twitter_url_to_username ( $url )`: Takes a Twitter URL, finds the username without the @. Found in `/inc/open-graph.php`.
 

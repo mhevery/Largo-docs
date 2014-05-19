@@ -50,7 +50,7 @@ TO DO:
 		- [x] `post-meta.php`: 
 		- [x] `post-tags.php`: 
 		- [x] `post-templates.php`: 
-		- [ ] `related-content.php`: 
+		- [x] `related-content.php`: 
 		- [ ] `robots.php`: 
 		- [ ] `sidebars.php`: 
 		- [ ] `taxonomies.php`: 
