@@ -38,6 +38,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 	- `$separator`: string to use as a separator between list items
 	- `$item_wrapper`: string html tag to use as a wrapper for elements in the output
 	- `$exclude`: array of term ids to exclude
+- `largo_category_archive_posts( $query )`: Helper for getting posts in a category archive, sorted with featured posts first. Found in `/inc/taxonomies.php`.
 - `largo_change_default_hidden_metaboxes( $hidden, $screen )`: Shows all metaboxes in the edit interface by default. Found in `/inc/post-meta.php`. 
 - `largo_clear_home_icon_cache( $option )`: Clears the homepage icon cache when options are updated. Found in `/inc/images.php`.
 - `largo_comment( $comment, $args, $depth )`: Template for comments and pingbacks, used as a callback by `wp_list_comments()` for displaying the comments. Found in `/inc/post-tags.php`.
@@ -56,6 +57,8 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_custom_login_logo()`: Adds the Largo logo to the login page. Found in `inc/cached-core-functions.php`. 
 - `largo_custom_related_meta_box_display()`: Content for the Additional Options metabox. Found in `/inc/post-meta.php`. 
 - `largo_custom_sidebars_dropdown( $selected = '', $skip_default = false, $post_id = NULL )`: Builds a dropdown menu of custom sidebars. Used in the meta box on post/page edit screens and landing page edit screen. 
+- `largo_custom_taxonomies()`: Registers the prominence and series custom taxonomies and inserts the default terms. Found in `/inc/taxonomies.php`.
+- `largo_custom_taxonomy_terms( $post_id )`: Outputs custom taxonomy terms attached to a post. Found in `/inc/taxonomies.php`.
 - `largo_custom_wp_link_pages( $args )`: Adds pagination to ingle posts. Based on http://bavotasan.com/2012/a-better-wp_link_pages-for-wordpress/, accepts as `$args` [the same array of arguments](http://codex.wordpress.org/Function_Reference/wp_link_pages) as `wp_link_pages`. 
 
 **D**
@@ -134,6 +137,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_get_recent_posts_for_term( $term, $max = 5, $min = 1 )`: Provides recent posts for a term object (category, tag, etc). If number of items is fewer than `$min`, returns `false`. Excludes the current post if we're inside [The Loop](http://codex.wordpress.org/The_Loop). Found in `/inc/related-content.php`. 
 - `largo_filter_get_recent_posts_for_term_query_args( $query_args, $term, $max, $min, $post )`: 
 - `largo_get_related_topics_for_category( $obj )`: Shows related tags and subcategories for each main category. Used on `category.php` to display a list of related terms. Found in `/inc/related-content.php`. 
+- `largo_get_series_posts( $series_id, $number = -1 )`: Helper function for getting posts in proper landing-page order for a series. Found in `/inc/taxonomies.php`.
 - `get_post_template( $template )`: Filters the single template value, replaces it with the template chosen by the user, if they choose one. Found in `/inc/post-templates.php`.
 - `get_post_templates()`: Scans template files of active theme, returns an array of `[Template Name => {file}.php]`. Found in `/inc/post-templates.php`.
 - `largo_get_the_main_feature()`: Provides "main" feature associated with a post, if there is a feature. Found in `/inc/featured-content.php`.
@@ -178,6 +182,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 **P**
 
+- `largo_post_in_series( $post_id = NULL )`: Determins whether a post is in a series. Found in `/inc/taxonomies.php`.
 - `largo_post_social_links( $echo = true )`: Outputs Facebook, Twitter, email, share and print utility links on article pages. `$echo` controls whether the string is echoed or returned. Found in `/inc/post-tags.php`.
 - `post_type_icon( $options = array() )`: Returns the post-type icon for a post. 
  -`post_templates_dropdown()`: Builds a dropdown of all post templates. Found in `/inc/post-templates.php`.
@@ -202,6 +207,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 **T**
 
 - `_tags_associated_with_category( $cat_id, $max = 5)`: Gets a list of tags used in posts in this category, sorts by popularity, returns an array of the top `$max` tags. Found in `/inc/related-content.php`. 
+- `largo_term_to_label( $term )`: Output format for the series custom taxonomy at the bottom of single posts. Found in `/inc/taxonomies.php`.
 - `largo_time( $echo = true )`: For posts published less than 24 hours ago, show "time ago" instead of date, otherwise just use `get_the_date`. `$echo` controls whether the time is echoed or returned. Found in `/inc/post-tags.php`.
 - `largo_tinymce_config( $init )`: Removes weird span tags inserted by TinyMCE. Found in `/inc/editor.php`.
 - `largo_top_tag_display()`: Additional content for the Additional Options metabox. Found in `/inc/post-meta.php`. 

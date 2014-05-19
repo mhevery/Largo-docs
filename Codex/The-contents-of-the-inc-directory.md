@@ -48,7 +48,13 @@
 - `related-content.php`: Functions and the class `Largo_Related` that provide related posts for a post. 
 - `robots.php`: Defaults for robots.txt. 
 - `sidebars.php`: Registers sidebars, builds a dropdown menu of them.
-- `taxonomies.php`: 
+- `taxonomies.php`: Functions relating to custom taxonomies: 
+	- register the prominence and series custom taxonomies
+	- determine if a post is in a series
+	- output custom taxonomy terms attached to a posts
+	- output format for series custom taxonomy at bottom of single posts
+	- sort posts in proper landing-page order for a series
+	- sort posts featured-first for category archive
 - `term-icons.php`: 
 - `term-meta.php`: 
 - `term-sidebars.php`: 

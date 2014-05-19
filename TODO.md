@@ -53,7 +53,7 @@ TO DO:
 		- [x] `related-content.php`: 
 		- [x] `robots.php`: 
 		- [x] `sidebars.php`: 
-		- [ ] `taxonomies.php`: 
+		- [x] `taxonomies.php`: 
 		- [ ] `term-icons.php`: 
 		- [ ] `term-meta.php`: 
 		- [ ] `term-sidebars.php`: 
