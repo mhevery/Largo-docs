@@ -66,12 +66,8 @@ WordPress theme custom functions are defined in `functions.php`. To make mainten
 
 **Customizer**: Adds Largo-specific functionality to the [Customizer](http://en.support.wordpress.com/customizer/) via the [Theme Customization API](https://codex.wordpress.org/Theme_Customization_API) and four [[custom classes|Largo custom classes]]. The `customizer` directory also contains relevant CSS and JavaScript. 
 
-**Picturefill**
+**Picturefill**: [Picturefill.WP](https://wordpress.org/plugins/picturefillwp/) is a plugin that uses [picturefill.js](https://scottjehl.github.io/picturefill/) to load responsive and retina images, mimicking the HTML5 `<picture>` spec. 
 
-**Widgets**
+**Widgets**: Largo's custom widgets. For more information about each widget, see [[Sidebars and widgets]].
 
-**WP-Taxonomy-Landing**
-
-## Widgets:
-
-
+**WP-Taxonomy-Landing**: Provides a new post type, Landing Page. Requests to a taxonomy archive, such as a category or tag page, will check if a Landing Page has that taxonomy set.  If one exists, and the request is for the landing page (that is, not an explicit request for page 1 or any following page), the Landing Page is displayed rather than the normal page 1 of the taxonomy archive. 
