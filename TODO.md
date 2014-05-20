@@ -29,11 +29,11 @@ TO DO:
 	- [ ] Page templates 
 		- largo-specific, 
 		- wordpress basic, note if unstyled
-	- [ ] What's in /inc 
+	- [x] What's in /inc 
 		- [x] `ad-codes.php`
 		- [x] `cached-core-functions.php`
 		- [x] `custom-feeds.php`
-		- [ ] customizer 
+		- [x] customizer 
 		- [x] `custom-less-variables.php`
 		- [x] `dashboard.php`
 		- [x] `editor.php`
@@ -47,7 +47,7 @@ TO DO:
 		- [x] `metabox-api.php`
 		- [x] `nav-menus.php`
 		- [x] `open-graph.php`
-		- [ ] picturefill
+		- [x] picturefill
 		- [x] `post-meta.php`
 		- [x] `post-tags.php`
 		- [x] `post-templates.php`
@@ -60,9 +60,9 @@ TO DO:
 		- [x] `term-sidebars.php`
 		- [x] `update.php`
 		- [x] `users.php`
-		- [ ] widgets
+		- [x] widgets
 		- [x] `widgets.php`
-		- [ ] wp-taxonomy-landing
+		- [x] wp-taxonomy-landing
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
 	- [ ] Largo custom classes
