@@ -1,4 +1,4 @@
-	WordPress theme custom functions are defined in `functions.php`. To make maintenance and the creation of child themes easier, Largo splits its custom functions out into separate files in the `/inc` directory. 
+WordPress theme custom functions are defined in `functions.php`. To make maintenance and the creation of child themes easier, Largo splits its custom functions out into separate files in the `/inc` directory. 
 
 ## Miscellaneous functions:
 
