@@ -64,7 +64,7 @@ WordPress theme custom functions are defined in `functions.php`. To make mainten
 
 ## Functions in directories:
 
-**Customizer**
+**Customizer**: Adds Largo-specific functionality to the [Customizer](http://en.support.wordpress.com/customizer/) via the [Theme Customization API](https://codex.wordpress.org/Theme_Customization_API) and four [[custom classes|Largo custom classes]]. The `customizer` directory also contains relevant CSS and JavaScript. 
 
 **Picturefill**
 

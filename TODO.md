@@ -33,7 +33,7 @@ TO DO:
 		- [x] `ad-codes.php`
 		- [x] `cached-core-functions.php`
 		- [x] `custom-feeds.php`
-		- [ ] customizer 
+		- [x] customizer 
 		- [x] `custom-less-variables.php`
 		- [x] `dashboard.php`
 		- [x] `editor.php`
