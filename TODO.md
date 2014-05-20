@@ -61,7 +61,7 @@ TO DO:
 		- [x] `update.php`
 		- [x] `users.php`
 		- [ ] widgets
-		- [ ] `widgets.php`
+		- [x] `widgets.php`
 		- [ ] wp-taxonomy-landing
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
