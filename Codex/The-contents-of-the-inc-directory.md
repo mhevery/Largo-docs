@@ -60,15 +60,17 @@
 - `term-sidebars.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy.
 - `update.php`: Tools for updating from Largo 0.3 to 0.4. 
 - `users.php`: User profiles for normal users and Co-Authors Plus guest authors, multisite user edit permissions for admins. 
-- `widgets`: 
 - `widgets.php`: 
-- `wp-taxonomy-landing`: 
 
 ## Functions in directories:
 
-- **Customizer**: 
-- **Picturefill**: 
-- **WP-Taxonomy-Landing**: 
+**Customizer**
+
+**Picturefill**
+
+**Widgets**
+
+**WP-Taxonomy-Landing**
 
 ## Widgets:
 
