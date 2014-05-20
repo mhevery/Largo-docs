@@ -30,38 +30,39 @@ TO DO:
 		- largo-specific, 
 		- wordpress basic, note if unstyled
 	- [ ] What's in /inc 
-		- [x] `ad-codes.php`: 
-		- [x] `cached-core-functions.php`: 
-		- [x] `custom-feeds.php`: 
-		- [x] `customizer`: 
-		- [x] `custom-less-variables.php`: 
-		- [x] `dashboard.php`: 
-		- [x] `editor.php`: 
-		- [x] `enqueue.php`: 
-		- [x] `featured-content.php`: 
-		- [x] `header-footer.php`: 
-		- [x] `home-template-functions.php`: 
-		- [x] `home-templates.php`: 
-		- [x] `images.php`: 
-		- [x] `largo-plugin-init.php`: 
-		- [x] `metabox-api.php`: 
-		- [x] `nav-menus.php`: 
-		- [x] `open-graph.php`: 
-		- [x] `post-meta.php`: 
-		- [x] `post-tags.php`: 
-		- [x] `post-templates.php`: 
-		- [x] `related-content.php`: 
-		- [x] `robots.php`: 
-		- [x] `sidebars.php`: 
-		- [x] `taxonomies.php`: 
-		- [x] `term-icons.php`: 
-		- [x] `term-meta.php`: 
-		- [x] `term-sidebars.php`: 
-		- [x] `update.php`: 
-		- [x] `users.php`: 
-		- [ ] `widgets`: 
-		- [ ] `widgets.php`: 
-		- [ ] `wp-taxonomy-landing`: 
+		- [x] `ad-codes.php`
+		- [x] `cached-core-functions.php`
+		- [x] `custom-feeds.php`
+		- [ ] customizer 
+		- [x] `custom-less-variables.php`
+		- [x] `dashboard.php`
+		- [x] `editor.php`
+		- [x] `enqueue.php`
+		- [x] `featured-content.php`
+		- [x] `header-footer.php`
+		- [x] `home-template-functions.php`
+		- [x] `home-templates.php`
+		- [x] `images.php`
+		- [x] `largo-plugin-init.php`
+		- [x] `metabox-api.php`
+		- [x] `nav-menus.php`
+		- [x] `open-graph.php`
+		- [ ] picturefill
+		- [x] `post-meta.php`
+		- [x] `post-tags.php`
+		- [x] `post-templates.php`
+		- [x] `related-content.php`
+		- [x] `robots.php`
+		- [x] `sidebars.php`
+		- [x] `taxonomies.php`
+		- [x] `term-icons.php`
+		- [x] `term-meta.php`
+		- [x] `term-sidebars.php`
+		- [x] `update.php`
+		- [x] `users.php`
+		- [ ] widgets
+		- [x] `widgets.php`
+		- [ ] wp-taxonomy-landing
 	- [ ] per-widget documentation of features/options for Largo widgets
 	- [ ] Largo custom functions
 	- [ ] Largo custom classes

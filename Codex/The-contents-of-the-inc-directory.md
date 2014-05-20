@@ -1,4 +1,4 @@
-	WordPress theme custom functions are defined in `functions.php`. To make maintenance and the creation of child themes easier, Largo splits its custom functions out into separate files in the `/inc` directory. 
+WordPress theme custom functions are defined in `functions.php`. To make maintenance and the creation of child themes easier, Largo splits its custom functions out into separate files in the `/inc` directory. 
 
 ## Miscellaneous functions:
 
@@ -60,15 +60,17 @@
 - `term-sidebars.php`: Displays the fields for selecting icons for terms in the "post-type" taxonomy.
 - `update.php`: Tools for updating from Largo 0.3 to 0.4. 
 - `users.php`: User profiles for normal users and Co-Authors Plus guest authors, multisite user edit permissions for admins. 
-- `widgets`: 
-- `widgets.php`: 
-- `wp-taxonomy-landing`: 
+- `widgets.php`: Sets up the Largo custom widgets, adds CSS classes to sidebar widgets, adds Largo-specific custom fields to widget forms, adds ability to have widget titles also be links. 
 
 ## Functions in directories:
 
-- **Customizer**: 
-- **Picturefill**: 
-- **WP-Taxonomy-Landing**: 
+**Customizer**
+
+**Picturefill**
+
+**Widgets**
+
+**WP-Taxonomy-Landing**
 
 ## Widgets:
 

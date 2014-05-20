@@ -12,11 +12,17 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_ad_tags_ids( $ad_tag_ids )`: Adds ad tags for the [Ad Code Manager plugin](http://wordpress.org/extend/plugins/ad-code-manager/). Found in `inc/ad-codes.php`. 
 - `largo_add_dont_miss_label( $items, $args )`: Prepends static label to the beginning of the "Don't Miss" header area, as set in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/nav-menus.php`. 
 - `largo_add_footer_menu_label( $items, $args )`: Prepends static lable to the beginning of the footer menu area, as set in *Appearance &gt; Theme Options &gt; Basic Settings*. Found in `/inc/nav-menus.php`. 
+- `largo_add_link_to_widget_title( $title, $instance = null )`: Makes it possible for widget titles to be links. Found in `/inc/widgets.php`. 
 - `largo_add_mce_plugin( $plugin_array )`: Adds `/js/tinymce/plugins/largo/editor_plugin.js` to the plugin array. Found in `inc/editor.php`
 - `largo_add_mce_buttons()`: If the user has enabled rich editing, then this filters `mce_external_plugins` with `largo_add_mce_plugin` and filters `mce_buttons` with `largo_register_mce_buttons`. Found in `/inc/editor.php`.
 - `largo_add_meta_box( $id, $title, $callbacks = array(), $post_types = 'post', $context = 'advanced', $priority = 'default' )`: Defines a metabox container. Found in `/inc/metabox-api.php`.
 - `largo_add_meta_content( $callback, $box_id )`: Adds a field to a metabox container. Found in `/inc/metabox-api.php`.
 - `largo_add_term_meta( $taxonomy, $term_id, $meta_key, $meta_value, $unique=false )`: Adds metadata to a term's meta post. Found in `/inc/term-meta.php`.
+- `largo_add_widget_classes( $params )`: Adds custom CSS classes to sidebar widgets. Found in `/inc/widgets.php`.
+	- iterative classes (`widget-1`, `widget-2`, etc.) reset for each sidebar
+	- odd/even classes
+	- default/rev/no-bg classes
+	- Bootstrap's responsive classes
 - `largo_admin_footer_text( $default_text )`: A [filter](http://codex.wordpress.org/Function_Reference/add_filter) that replaces the admin page footer text with "This website powered by <a href="http://largoproject.org">Project Largo</a> from the <a href="http://investigativenewsnetwork.org">Investigative News Network</a> and <a href="http://wordpress.org">WordPress</a>."  Found in `/inc/dashboard.php`.
 - `largo_admin_menu()`: Removes the Link Manager menu item that [was deprecated in WordPress 3.5](http://codex.wordpress.org/Links_Manager).  Found in `/inc/dashboard.php`.
 - `largo_admin_users_caps( $caps, $cap, $user_id, $args )`: In a multisite network, allow site admins to edit user profiles. H/t http://thereforei.am/2011/03/15/how-to-allow-administrators-to-edit-users-in-a-wordpress-network/. Found in `/ince/users.php`. 
@@ -212,6 +218,7 @@ Looking for something? `Ctrl-F` or `⌘-F`
 - `largo_register_required_plugins()`: Registers plugins required by Largo, nags logged-in users about it in the Dashboard. Found in `/ing/largo-plugin-init.php`.
 - `largo_register_sidebars()`: Registers sidebars and widget areas. Found in `/inc/sidebars.php`. 
 - `largo_register_term_meta_poost_type()`: Registers the proxy post type that bridges between a `term_id` and a `post_meta` field. Found in `/inc/term-meta.php`.
+- `largo_register_widget_custom_fields( $instance, $widget )`: Registers widget custom fields. Found in `/inc/widgets.php`. 
 - `largo_remove_default_post_screen_metaboxes()`: Hides the tackbacks, slug, revisions, author and comments metaboxes to clean up the post and page edit screens. 
 - `largo_robots()`: Defaults for robots.txt. See http://codex.wordpress.org/Search_Engine_Optimization_for_WordPress#Robots.txt_Optimization. Found in `/inc/robots.php`. 
 
@@ -259,5 +266,9 @@ Looking for something? `Ctrl-F` or `⌘-F`
 
 **W**
 
+- `largo_widget_counter_reset( $text )`: Resets the `largo_add_widget_classes` counter for each sidebar. Found in `/inc/widgets.php`.
+- `largo_widget_custom_fields_form( $widget, $args, $instance )`: Adds Largo-specific custom fields to widget forms. Found in `/inc/widgets.php`.
 - `largo_widget_in_region( $widget_name, $region = 'article-bottom' )`: Checks to see if a given widget is in a given region already, as part of `/inc/update.php`. 
 - `largo_widget_settings()`: Render widget setting fields on the widget page for Largo Sidebar Options. Found in `/inc/sidebars.php`. 
+- `largo_widget_update_extend( $instance, $new_instance )`: Adds additional fields to widget update callback. Found in `/inc/widgets.php`. 
+- `largo_widgets()`: Sets up Largo custom widgets, unregisters a number of default WordPress widgets. Largo widgets can be found in `/inc/widgets/`. This function found in `/inc/widgets.php`. 
