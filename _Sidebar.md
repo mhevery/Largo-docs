@@ -3,6 +3,7 @@
 	- [[Formatting content]]
 	- [[Optimizing content]]
 	- [[Custom taxonomies]]
+	- [[Largo post templates]]
 - Site setup:
 	- [[Setup checklist]]
 	- [[General settings]]
