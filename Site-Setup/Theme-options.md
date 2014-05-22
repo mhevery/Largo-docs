@@ -44,6 +44,8 @@ For more information, see [[Home page top templates]].
 
 If you would like posts set as sticky to appear in the sticky box on the homepage, check the "Show sticky posts on homepage?" box. If checked, you will need to set at least one post as sticky for this box to appear. Set a post as sticky by giving it the tag 'sticky' in the post editor.
 
+[[anim.gif]]
+
 ### Homepage bottom templates
 
 Largo supports three options for the bottom of the homepage:
