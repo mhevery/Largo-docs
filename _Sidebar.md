@@ -9,6 +9,7 @@
 	- [[Adding users]]
 	- [[Theme options]]
 		- [[Homepage top templates]]
+		- [[Homepage bottom templates]]
 	- [[Menus]]
 	- [[Sidebars and widgets]]
 	- [[Using plugins]]

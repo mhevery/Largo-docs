@@ -38,7 +38,7 @@ The Largo theme offers seven homepage templates:
 - **Slider**: An animated carousel of featured stories with large images. Not recommended but available for backward compatibility.
 - **Top Stories**: A newspaper-like layout highlighting one Top Story on the left and others to the right. A popular layout choice!
 
-For more information, see [[Home page top templates]]. 
+For more information, see [[Homepage top templates]]. 
 
 ### Sticky posts
 

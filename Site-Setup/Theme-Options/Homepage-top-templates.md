@@ -1,22 +1,22 @@
-The Largo theme offers seven homepage templates, as well as a framework for adding other templates with a child theme. 
+The Largo theme offers seven homepage templates, as well as a framework for adding other templates with a child theme. The homepage template is chosen either in the Customizer or in *Appearance &gt; Theme Options &gt; Layout Options &gt; Home Template.*
 
 ## Blog
 
 [[blog.png]]
 
-This template actually does nothing, other than allow for the left rail sidebar. Set the [[Homepage Bottom]] to 'single' to get posts. A post with the [[Top Story or Homepage Featured prominence|Custom taxonomies]] will be put at the top of the list. 
+This template actually does nothing, other than allow for the left rail sidebar. Set the [[Homepage Bottom|Homepage bottom templates]] to 'single' to get posts. A post with the [[Top Story or Homepage Featured prominence|Custom taxonomies]] will be put at the top of the list. 
 
 ## Hero with Featured
 
 [[hero-featured.png]]
 
-Prominently features the top story along with three other 'Featured on Homepage' items, or by itself if none are specified. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. Best with [[Homepage Bottom]] set to 'blank'. 
+Prominently features the top story along with three other 'Featured on Homepage' items, or by itself if none are specified. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. Best with [[Homepage Bottom|Homepage bottom templates]] set to 'blank'. 
 
 ## Hero with Series
 
 [[hero-series.png]]
 
-Prominently features the top story along with other posts in [[its series|Custom taxonomies]], or by itself if not in a series. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. Best with [[Homepage Bottom]] set to 'blank'.
+Prominently features the top story along with other posts in [[its series|Custom taxonomies]], or by itself if not in a series. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. Best with [[Homepage Bottom|Homepage bottom templates]] set to 'blank'.
 
 ## Hero on the side with Series
 
