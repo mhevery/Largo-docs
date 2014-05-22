@@ -44,4 +44,6 @@ The Largo theme includes a number of custom widgets we developed to ensure compa
 - **Largo Taxonomy List**: List all of the terms in a custom taxonomy with links
 - **Largo Twitter Widget**: Show a Twitter profile, list or search widget
 
+All widgets have the choice of three backgrounds (default, reverse and none), the ability to be hidden on desktops, tablets and phones using [Bootstrap 2.3's responsive utility classes](http://getbootstrap.com/2.3.2/scaffolding.html#responsive), and the ability to set a link for the widget title. 
+
 For more about widgets and how WordPress handles them, see [the WordPress Codex article on widgets](http://codex.wordpress.org/WordPress_Widgets)
