@@ -9,7 +9,7 @@ A single-column list of recent posts with photos and excerpts.
 
 [[widgets.png]]
 
-This creates a two-column widget area and adds it to the list of [[sidebars and widgets|Sidebars and widgets]], allowing you to filter posts with custom taxonomy widgets. If you want to have posts from multiple categories below the main post, this is the way to go. 
+This creates a two-column widget area and adds it to the list of [[sidebars and widgets|Sidebars and widgets]], allowing you to filter posts by category, tag, or custom taxonomy with widgets. If you want to have posts from multiple categories below the main post, this is the way to go. 
 
 ## None
 
