@@ -12,3 +12,4 @@ How to do things that differ from the way WordPress normally does them. Importan
 - [[Formatting content]]
 - [[Optimizing content]]
 - [[Custom taxonomies]]
+- [[Largo post templates]]

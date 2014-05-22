@@ -8,7 +8,7 @@ TO DO:
 	- [x] Custom taxonomies
 		- entry in glossary may need updating if option to have additional sidebars moves out of Appearance &gt; theme options
 - Site setup:
-	- [ ] General site settings
+	- [x] General site settings
 	- [x] Sidebars and widget areas
 	- [x] Adding users
 	- [x] Setup checklist
@@ -26,9 +26,7 @@ TO DO:
 	- [ ] Glossary
 		- brief overview of topic, links to in-depth definitions elsewhere in the wiki
 	- [x] Changelog
-	- [ ] Page templates 
-		- largo-specific, 
-		- wordpress basic, note if unstyled
+	- [x] Page templates 
 	- [x] What's in /inc 
 		- [x] `ad-codes.php`
 		- [x] `cached-core-functions.php`
@@ -64,11 +62,11 @@ TO DO:
 		- [x] `widgets.php`
 		- [x] wp-taxonomy-landing
 	- [ ] per-widget documentation of features/options for Largo widgets
-	- [ ] Largo custom functions
-	- [ ] Largo custom classes
+	- [x] Largo custom functions
+	- [x] Largo custom classes
 	- [ ] Largo hooks and filters
 	- [ ] Code snippets
-	- [ ] Modifying theme options
+	- [x] Modifying theme options
 	- [ ] Modifying recommended plugins
 	- [x] Modifying Largo Styles
 - Help desk 

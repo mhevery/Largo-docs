@@ -7,7 +7,13 @@ WordPress has two default taxonomies:
 
 In addition to these two taxonomies, Largo adds three more:
 
-- **Post Prominence**: This is used to determine which posts to display on the homepage or in featured posts widgets in the sidebar and footer. You might also add additional categories to this taxonomy to create custom feeds for distribution to content partners.
+- **Post Prominence**: This is used to determine which posts to display on the homepage or in featured posts widgets in the sidebar and footer. You might also add additional categories to this taxonomy to create custom feeds for distribution to content partners. Default options are:
+	- Top Story
+	- Featured in Category
+	- Featured in Series
+	- Footer Featured Widget
+	- Homepage Featured
+	- Sidebar Featured Widget
 - **Series**: If you add a post to a multi-part series, you should create a category in the Series taxonomy from the edit post screen and make sure all posts in that series have this label applied. That way the Largo theme knows to display other posts in that series at the bottom of posts and, in some cases, on the homepage.
 - **Post Types** (new in version 0.4): Post types are a way of labeling posts with a particular type, such as "Data reporting" or "Transcripts." Each post type can have an icon, which will be used in certain places in the theme. Each post type also has its own archive. 
 
