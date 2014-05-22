@@ -10,13 +10,13 @@ This template actually does nothing, other than allow for the left rail sidebar.
 
 [[hero-featured.png]]
 
-Prominently features the top story along with three other 'Featured on Homepage' items, or by itself if none are specified. Best with [[Homepage Bottom]] set to 'blank'. 
+Prominently features the top story along with three other 'Featured on Homepage' items, or by itself if none are specified. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. Best with [[Homepage Bottom]] set to 'blank'. 
 
 ## Hero with Series
 
 [[hero-series.png]]
 
-Prominently features the top story along with other posts in [[its series|Custom taxonomies]], or by itself if not in a series. Best with [[Homepage Bottom]] set to 'blank'.
+Prominently features the top story along with other posts in [[its series|Custom taxonomies]], or by itself if not in a series. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. Best with [[Homepage Bottom]] set to 'blank'.
 
 ## Hero on the side with Series
 
@@ -30,7 +30,7 @@ This option disables the standard right-hand Largo sidebar for the homepage.
 
 [[single.png]]
 
-Prominently features the top story by itself. 
+Prominently features the top story by itself. The top story should have a large image (at least 1170 pixels wide before uploading) as the post featured image. 
 
 This option disables the standard right-hand Largo sidebar for the homepage. 
 
