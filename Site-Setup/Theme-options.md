@@ -36,7 +36,9 @@ The Largo theme offers seven homepage templates:
 - **Hero with Series**: Prominently features the top story along with other posts in its series, or by itself if not in a series. Best with Homepage Bottom set to 'blank'
 - **Single**: Prominently features the top story by itself
 - **Slider**: An animated carousel of featured stories with large images. Not recommended but available for backward compatibility.
-- **Top Stories**: A newspaper-like layout highlighting one Top Story on the left and others to the right. A popular layout choice!- 
+- **Top Stories**: A newspaper-like layout highlighting one Top Story on the left and others to the right. A popular layout choice!
+
+For more information, see [[Home page top templates]]. 
 
 ### Sticky posts
 
