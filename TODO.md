@@ -8,7 +8,7 @@ TO DO:
 	- [x] Custom taxonomies
 		- entry in glossary may need updating if option to have additional sidebars moves out of Appearance &gt; theme options
 - Site setup:
-	- [ ] General site settings
+	- [x] General site settings
 	- [x] Sidebars and widget areas
 	- [x] Adding users
 	- [x] Setup checklist
@@ -26,48 +26,47 @@ TO DO:
 	- [ ] Glossary
 		- brief overview of topic, links to in-depth definitions elsewhere in the wiki
 	- [x] Changelog
-	- [ ] Page templates 
-		- largo-specific, 
-		- wordpress basic, note if unstyled
-	- [ ] What's in /inc 
-		- [x] `ad-codes.php`: 
-		- [x] `cached-core-functions.php`: 
-		- [x] `custom-feeds.php`: 
-		- [x] `customizer`: 
-		- [x] `custom-less-variables.php`: 
-		- [x] `dashboard.php`: 
-		- [x] `editor.php`: 
-		- [x] `enqueue.php`: 
-		- [x] `featured-content.php`: 
-		- [x] `header-footer.php`: 
-		- [ ] `home-template-functions.php`: 
-		- [ ] `home-templates.php`: 
-		- [ ] `images.php`: 
-		- [ ] `largo-plugin-init.php`: 
-		- [ ] `metabox-api.php`: 
-		- [ ] `nav-menus.php`: 
-		- [ ] `open-graph.php`: 
-		- [ ] `picturefill`: 
-		- [ ] `post-meta.php`: 
-		- [ ] `post-tags.php`: 
-		- [ ] `post-templates.php`: 
-		- [ ] `related-content.php`: 
-		- [ ] `robots.php`: 
-		- [ ] `sidebars.php`: 
-		- [ ] `taxonomies.php`: 
-		- [ ] `term-icons.php`: 
-		- [ ] `term-meta.php`: 
-		- [ ] `term-sidebars.php`: 
-		- [ ] `update.php`: 
-		- [ ] `users.php`: 
-		- [ ] `widgets`: 
-		- [ ] `widgets.php`: 
-		- [ ] `wp-taxonomy-landing`: 
+	- [x] Page templates 
+	- [x] What's in /inc 
+		- [x] `ad-codes.php`
+		- [x] `cached-core-functions.php`
+		- [x] `custom-feeds.php`
+		- [x] customizer 
+		- [x] `custom-less-variables.php`
+		- [x] `dashboard.php`
+		- [x] `editor.php`
+		- [x] `enqueue.php`
+		- [x] `featured-content.php`
+		- [x] `header-footer.php`
+		- [x] `home-template-functions.php`
+		- [x] `home-templates.php`
+		- [x] `images.php`
+		- [x] `largo-plugin-init.php`
+		- [x] `metabox-api.php`
+		- [x] `nav-menus.php`
+		- [x] `open-graph.php`
+		- [x] picturefill
+		- [x] `post-meta.php`
+		- [x] `post-tags.php`
+		- [x] `post-templates.php`
+		- [x] `related-content.php`
+		- [x] `robots.php`
+		- [x] `sidebars.php`
+		- [x] `taxonomies.php`
+		- [x] `term-icons.php`
+		- [x] `term-meta.php`
+		- [x] `term-sidebars.php`
+		- [x] `update.php`
+		- [x] `users.php`
+		- [x] widgets
+		- [x] `widgets.php`
+		- [x] wp-taxonomy-landing
 	- [ ] per-widget documentation of features/options for Largo widgets
-	- [ ] Largo custom functions
+	- [x] Largo custom functions
+	- [x] Largo custom classes
 	- [ ] Largo hooks and filters
 	- [ ] Code snippets
-	- [ ] Modifying theme options
+	- [x] Modifying theme options
 	- [ ] Modifying recommended plugins
 	- [x] Modifying Largo Styles
 - Help desk 

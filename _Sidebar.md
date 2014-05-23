@@ -3,19 +3,24 @@
 	- [[Formatting content]]
 	- [[Optimizing content]]
 	- [[Custom taxonomies]]
+	- [[Custom landing pages]]
+	- [[Largo post templates]]
 - Site setup:
 	- [[Setup checklist]]
 	- [[General settings]]
 	- [[Adding users]]
 	- [[Theme options]]
+		- [[Homepage top templates]]
+		- [[Homepage bottom templates]]
 	- [[Menus]]
 	- [[Sidebars and widgets]]
 	- [[Using plugins]]
-- Help desk:
+- Help Desk:
 	- [[WordPress Basics]]
 - Codex:
 	- [[Glossary]]
 	- [[The contents of the inc directory]]
+	- [[Largo custom classes]]
 	- [[Largo custom functions]]
 	- [[Hooks and filters]]
 	- [[Code snippets]]

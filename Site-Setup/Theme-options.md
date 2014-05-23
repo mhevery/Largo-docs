@@ -27,7 +27,7 @@ There is one additional option in this section, a checkbox that allows you to us
 
 ## Layout Options
 
-### Top template
+### Homepage top template
 The Largo theme offers seven homepage templates:
 
 - **Blog**: A blog-like list of posts with the ability to stick a post to the top of the homepage. Be sure to set Homepage Bottom to the single column view.
@@ -36,23 +36,27 @@ The Largo theme offers seven homepage templates:
 - **Hero with Series**: Prominently features the top story along with other posts in its series, or by itself if not in a series. Best with Homepage Bottom set to 'blank'
 - **Single**: Prominently features the top story by itself
 - **Slider**: An animated carousel of featured stories with large images. Not recommended but available for backward compatibility.
-- **Top Stories**: A newspaper-like layout highlighting one Top Story on the left and others to the right. A popular layout choice!- 
+- **Top Stories**: A newspaper-like layout highlighting one Top Story on the left and others to the right. A popular layout choice!
+
+For more information, see [[Homepage top templates]]. 
 
 ### Sticky posts
 
 If you would like posts set as sticky to appear in the sticky box on the homepage, check the "Show sticky posts on homepage?" box. If checked, you will need to set at least one post as sticky for this box to appear. Set a post as sticky by giving it the tag 'sticky' in the post editor.
+
+[[tag-sticky.gif]]
 
 ### Homepage bottom templates
 
 Largo supports three options for the bottom of the homepage:
 
 - A single-column list of recent posts with photos and excerpts
-- A two-column widget area: This creates a new widget area in *Appearance &gt; Widgets*, where the following widgets are recommended:
-	- Largo Featured Posts: shows a set number of featured posts
-	- Largo Recent Posts: shows a set number of posts and can be limited to one category or none, limited by tags, limited by [[custom taxonomies|Custom taxonomies]], and limited by author
+- A two-column widget area: This creates a new widget area in *Appearance &gt; Widgets*
 - Nothing whatsoever
 
-### Homepage Display Options
+For more information, see [[Homepage bottom templates]].
+
+### Homepage display options
 
 - Display options for categories and tags on posts on the homepage
 	- A single category or tag above the headline for each story
@@ -60,14 +64,28 @@ Largo supports three options for the bottom of the homepage:
 	- No tags or categories
 - Number of posts to display in the main posts area on the homepage
 - Categories to include or exclude from the main posts area on the home page. Enter a comma-separated list of category names or ids:
+
     news,sports,12,13,press-releases,blog
 
 ### Sidebar options:
 
 These affect the presentation of the sidebar to the reader. 
 
-- A third sidebar used only on archive pages (category, tag, author and series pages)
-- An additional sidebar widget region just above the site footer region
+- Add a third sidebar used only on archive pages (category, tag, author and series pages), configurable in *Appearance &gt; Widgets*
+- An additional widget region just above the site footer region, configurable in *Appearance &gt; Widgets*
 - Fade the sidebar out on single story pages as the reader scrolls
 
+### Footer layout
+
+[[footer-options.png]]
+
+The default footer is a 3 column footer with a wide center column. Alternatively you can choose to have 3 or 4 equal columns. Each column is a widget area that can be configured under the *Appearance &gt; Widgets* menu, where they will be labeled "Footer 1" through "Footer 3" or "Footer 4."
+
 ## Advanced Options
+
+- Enable [[custom LESS compilation for theme customization|Modifying Largo styles]]
+- Enable [[custom landing pages for series and projects|Custom landing pages]]
+	- Set the default region in the left-hand column of landing pages
+	- Set the default region in the right-hand column of landing pages
+- Replace WordPress search with [Google Custom Search](https://support.google.com/customsearch/answer/2630963?hl=en&ctx=topic). This is highly recommended. 
+
