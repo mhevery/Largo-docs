@@ -12,7 +12,7 @@
 	- [[Sidebars and widgets]]
 	- [[Using plugins]]
 - Help desk:
-	-[[WordPress Basics]]
+	- [[WordPress Basics]]
 - Codex:
 	- [[Glossary]]
 	- [[The contents of the inc directory]]
