@@ -52,7 +52,7 @@ Per the [Gollum wiki](https://github.com/gollum/gollum/wiki), links between page
 
 The easiest way to improve this wiki is to [file an issue](https://github.com/INN/Largo-docs/issues) with your proposed change.
 
-If you want to take it a bit further, [fork INN/Largo-docs](https://github.com/INN/Largo-docs/fork), make your changes, test them, and submit a pull request. 
+If you want to take it a bit further, [fork INN/Largo-docs](https://github.com/INN/Largo-docs/fork), make your changes, test them, and submit a pull request. More information about that can be found [here](https://github.com/INN/Largo-docs/README.md).
 
 Pages are written in [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) with [Gollum](https://github.com/gollum/gollum/wiki) syntax for images and internal links.
 
