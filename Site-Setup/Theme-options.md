@@ -64,6 +64,7 @@ For more information, see [[Homepage bottom templates]].
 	- No tags or categories
 - Number of posts to display in the main posts area on the homepage
 - Categories to include or exclude from the main posts area on the home page. Enter a comma-separated list of category names or ids:
+
     news,sports,12,13,press-releases,blog
 
 ### Sidebar options:
@@ -83,7 +84,7 @@ The default footer is a 3 column footer with a wide center column. Alternatively
 ## Advanced Options
 
 - Enable [[custom LESS compilation for theme customization|Modifying Largo styles]]
-- Enable custom landing pagse for series and project pages
+- Enable [[custom landing pages for series and projects|Custom landing pages]]
 	- Set the default region in the left-hand column of landing pages
 	- Set the default region in the right-hand column of landing pages
 - Replace WordPress search with [Google Custom Search](https://support.google.com/customsearch/answer/2630963?hl=en&ctx=topic). This is highly recommended. 
