@@ -10,7 +10,7 @@ For a list of areas that need contribution, see [TODO.md](TODO.md)
 
 ## Branching
 
-Each release of Largo (0.3, 0.4, etc) will have a branch of Largo-docs named after that branch. 
+Each release of Largo (0.3, 0.4, etc) will have a branch of Largo-docs named after that branch. Creating your own branch is as simple as <a href="https://github.com/INN/Largo-docs/fork" target="_blank">forking INN/Largo-docs</a>, making edits to your fork, and [submitting a pull request](https://help.github.com/articles/using-pull-requests) against the current branch of Largo-docs. 
 
 ### Submitting pull requests
 
