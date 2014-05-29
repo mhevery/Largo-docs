@@ -21,17 +21,18 @@ To add widgets to any of these areas, simply drag and drop a widget from the are
 
 The Largo theme includes a number of custom widgets we developed to ensure compatibility and consistent display.
 
-- **Footer Featured Posts**: 
-- **INN Member Stories**: An RSS feed of recent stories from INN members
-- **Largo Recent Posts**: Shows a set number of posts and can be limited to one category or none, limited by tags, limited by [[custom taxonomies|Custom taxonomies]], and limited by author
-- **Largo About Site**: Show the site description from your theme options page
-- **Largo Author Bio**: Show the author bio in a widget
-- **Largo Disclaimer Site**: Show the article disclaimer
-- **Largo Donate Widget**: Call-to-action for donations
+- **Footer Featured Posts**: A featured posts widget designed for the footer.
+- **INN Member Stories**: An RSS feed of recent stories from INN members.
+- **Largo Recent Posts**: Shows a set number of posts and can be limited to one category or none, limited by tags, limited by [[custom taxonomies|Custom taxonomies]], and limited by author.
+- **Largo About Site**: Show the site description from your theme options page.
+- **Largo Author Bio**: Show the author bio in a widget.
+- **Largo Custom Taxonomy List**: Lists all the terms in a chosen taxonomy with links to their archive pages. Examples of taxonomies are tags, categories, series and post prominence. Choosing "Series" would list all series.
+- **Largo Disclaimer Site**: Show the article disclaimer.
+- **Largo Donate Widget**: Call-to-action for donations.
 - **Largo Explore Related**: A fancy tabbed interface showing posts related to the current post; formerly a theme option.
-- **Largo Facebook Widget**: Show a Facebook Like Box for your page
-- **Largo Featured Posts**: Show recent featured posts with thumbnails and excerpts
-- **Largo Follow**: Display links to social media sites set in Largo theme options
+- **Largo Facebook Widget**: Show a Facebook Like Box for your page.
+- **Largo Featured Posts**: Show recent featured posts with thumbnails and excerpts.
+- **Largo Follow**: Display links to social media sites set in Largo theme options.
 - ~~Largo Footer Featured Posts~~: **Deprecated**: Show recent featured posts with thumbnails and excerpts
 - **Largo Post Series Links**: Shows the titles/descriptions of the series the post belongs to.
 - **Largo Prev/Next Links**: Prev/next post navigation, typically at the bottom of single posts; formerly a theme option.
