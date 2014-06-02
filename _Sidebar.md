@@ -13,6 +13,7 @@
 		- [[Homepage top templates]]
 		- [[Homepage bottom templates]]
 	- [[Menus]]
+	- [[Contact pages]]
 	- [[Sidebars and widgets]]
 	- [[Using plugins]]
 - Codex:
