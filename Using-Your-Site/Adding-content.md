@@ -1,5 +1,7 @@
 ## Pages vs. posts
 
+Pages
+
 ## Custom Taxonomies
 
 - Categories

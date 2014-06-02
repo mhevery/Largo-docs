@@ -13,11 +13,13 @@
 		- [[Homepage top templates]]
 		- [[Homepage bottom templates]]
 	- [[Menus]]
+	- [[Contact pages]]
 	- [[Sidebars and widgets]]
 	- [[Using plugins]]
 - Codex:
 	- [[Glossary]]
 	- [[The contents of the inc directory]]
+	- [[The contents of the lib directory]]
 	- [[Largo custom classes]]
 	- [[Largo custom functions]]
 	- [[Hooks and filters]]
