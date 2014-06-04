@@ -60,6 +60,16 @@ You may want to replace the fixed-width `width` attribute `width="500"` with the
 
 ## Page Breaks
 
+## Embedding HTML files
+
+If your HTML file is self-contained -- that is, it does not require any other files to be uploaded to the server -- it is safe to upload the .html file wth the "Add Media" dialog in the post editor. When you have uploaded, make a note of the link listed for the file under "Attachment Display Settings". 
+
+Create an `<iframe>` tag for your file:
+
+	<iframe src="LINK TO YOUR FILE" width="WIDTH" height="HEIGHT" frameborder="0"></iframe>
+	
+Use the text editor to insert the tag in your post, then hit "Preview Changes" to make sure it works. 
+
 ## Less Common HTML Elements
 
 Try them out and see what happens. If it's massively broken, [file an issue](https://github.com/inn/Largo/issues/new) to let us know. 
