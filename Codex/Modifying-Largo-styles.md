@@ -12,7 +12,7 @@ For example, from the root directory of the Largo repository:
 
     $ touch less/inc/yournewcomponent.less
 
-Edit `less/inc/yournewcomponent.less`, then in `less/style.css`:
+Edit `less/inc/yournewcomponent.less`, then in `less/style.less`:
 
     ...
     @import "inc/yournewcomponent.less";
