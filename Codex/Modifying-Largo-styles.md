@@ -5,7 +5,22 @@ Create a [child theme](http://codex.wordpress.org/Child_Themes) and override Lar
 ## Modify Largo
 
 1. Modify the LESS files in `less/`
-2. Recompile the LESS into CSS in `css/`
+    * If you're working on an existing component, edit the appropriate existing file(s) in `less/inc/`
+    * If you're working on a new component, create a new file in `less/inc/` and import that file in `less/style.less`
+
+For example, from the root directory of the Largo repository:
+
+    $ touch less/inc/yournewcomponent.less
+
+Edit `less/inc/yournewcomponent.less`, then in `less/style.css`:
+
+    ...
+    @import "inc/yournewcomponent.less";
+    ...
+
+2. Recompile the LESS into CSS in `css/`. From the root of the Largo repository, run:
+
+    $ lessc -x less/style.less > css/style.css
 
 ## Useful links
 
