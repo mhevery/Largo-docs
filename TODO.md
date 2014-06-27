@@ -2,9 +2,9 @@ TO DO:
 
 - Using your site
 	- [ ] Adding content
-	- [ ] Formatting content
-		- probably better as links to sample content on Largo Project site
-	- [ ] Optimizing content
+	- [x] Formatting content
+		- probably should have links to sample content on Largo Project site
+	- [x] Optimizing content
 	- [x] Custom taxonomies
 		- entry in glossary may need updating if option to have additional sidebars moves out of Appearance &gt; theme options
 - Site setup:

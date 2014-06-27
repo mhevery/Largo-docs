@@ -1,5 +1,20 @@
-## Examples (each section below contains link to example post)
+<!-- ## Examples (each section below contains link to example post) -->
+
 ## Headings and Paragraphs
+
+Paragraphs are separated by pressing the `enter` key in the visual editor, and pressing it twice in the text editor. 
+
+To make a paragraph into a heading, wrap it in a header tag:
+
+	<h1>Header one</h1>
+	<h2>Header two</h2>
+	<h3>Header three</h3>
+	<h4>Header four</h4>
+	<h5>Header five</h5>
+	<h6>Header six</h6>
+
+Lower-numbered header tags are more important than higher-numbered header tags, and have additional weight when search engines index your content. 
+
 ## Photos and Video
 
 Inserting photos and videos is as easy as clicking the "Add Media" button, uploading the media, adding the caption, description, alternate text, title and credit, and then saving. Click "Insert into Post" to insert the image at the current location of the cursor in the post editor. 
@@ -11,6 +26,13 @@ To create a slideshow in a post, click the "Add Media" button in the post editor
 In the visual editor, you will see a representation of your gallery. In the text editor, you will see a shortcode similar to `[gallery link="file" columns="1" ids="1628,1686,1687,1045"]`
 
 ## Tabular Data
+
+Inserting tables is as easy as opening the text editor tab and writing a table using the HTML `<table>` tag. For more information about `<table>`, try these resources:
+
+- http://teamtreehouse.com/library/html/tables/rows-and-cells
+- http://www.idocs.com/tags/tables/index_famsupp_27.html
+
+If you are embedding a Google Doc, consider using INN's [responsive tables](https://github.com/INN/responsive-tables) tool to make sure that your table is easily readable on all devices. 
 
 ## Lists
 
@@ -26,7 +48,28 @@ To remove aside or pull quote formatting, switch to the text editor and remove t
 - `half`/`full`: width of the aside, in terms of the column of text containing the story
 - `type-aside`/`type-pull-quote`: changes visual styling of aside
 
+## Embedding videos
+
+If you are embedding a video from YouTube, Vimeo or another site, simply paste that site's embed code into the WordPress text editor. 
+
+    <iframe width="560" height="315" src="//www.youtube.com/embed/sGpxfVxQkfE" frameborder="0" allowfullscreen></iframe>
+    
+    <iframe src="//player.vimeo.com/video/84713706" width="500" height="375" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    
+You may want to replace the fixed-width `width` attribute `width="500"` with the responsive attribute `width="100%"`. This will ensure that your video is sized appropriately on all screens.
+
 ## Page Breaks
+
+## Embedding HTML files
+
+If your HTML file is self-contained -- that is, it does not require any other files to be uploaded to the server -- it is safe to upload the .html file wth the "Add Media" dialog in the post editor. When you have uploaded, make a note of the link listed for the file under "Attachment Display Settings". 
+
+Create an `<iframe>` tag for your file:
+
+	<iframe src="LINK TO YOUR FILE" width="WIDTH" height="HEIGHT" frameborder="0"></iframe>
+	
+Use the text editor to insert the tag in your post, then hit "Preview Changes" to make sure it works. 
 
 ## Less Common HTML Elements
 
+Try them out and see what happens. If it's massively broken, [file an issue](https://github.com/inn/Largo/issues/new) to let us know. 
