@@ -6,6 +6,7 @@
 *  Check that box and **save the theme options**
 *  On the **Appearance** > **CSS Variables** menu that appears, you can now do some basic customization of the theme (mostly colors)
 *  You can use custom CSS to further refine the colors, but this will generally reduce the amount of custom CSS you need to use
+
 ***
 
 #### Q: Can I change the size of the text on the Nav bars and Widgets?
@@ -32,6 +33,7 @@
 
 * Send us a list of the changes you are requesting and we'll work with you to implement them
 * Make those changes in your staging environment and commit them to your Child Theme's repository so we can push them live for you
+
 ***
 
 #### Q: In Largo, can I get the social media buttons to open in a new tab/window?
@@ -48,6 +50,7 @@
 * We strip code from the html to prevent issues, like photos and embedded media, coming through to the homepage
 * We also try to keep things looking good across a wide variety of devices with our responsive theme. What looks good in your desktop browser may look terrible in a mobile browser or vice versa
 * We recommend using the **custom excerpt field** and writing a **short, plain text excerpt** for the best results
+
 ***
 
 #### Q: How do I control what appears in the lower right footer menu?
@@ -61,6 +64,7 @@
 * Click the **Visibility** status (Public, Private, etc)
 * Click the checkbox in front of **Stick this post to the front page**
 * It will appear on the homepage
+
 ***
 
 #### Q: How can I create a custom sidebar for a single post?
@@ -97,6 +101,7 @@ There are a number of other things you can do to improve rankings:
 * Make sure the **authors** on your site have completely filled out profiles that are linked with their Google+ profiles
 * Make sure partners or sites that republish your content are linking back to you whenever possible
 * Check out this [beginner's guide to SEO](http://moz.com/beginners-guide-to-seo)
+
 ***
 
 #### Q: Some of my embedded elements are gone or their appearance changed unexpectedly. What happened?
@@ -123,6 +128,7 @@ There are a number of other things you can do to improve rankings:
 	* no minus will limit the loop to that category
 
 5. You can add more as comma separated values
+
 ***
 
 #### Q: What can I use for analytics on my site?
@@ -132,6 +138,7 @@ There are a number of other things you can do to improve rankings:
 * Info on [setting up goals](http://searchengineland.com/a-beginner%E2%80%99s-guide-to-setting-goals-in-google-analytics-101826)
 * Some of our members use [Chartbeat](https://chartbeat.com/)
 * This site is great and offers free services for nonprofits [Web Analytics Demystified](http://www.webanalyticsdemystified.com/ae/)
+
 ***
 
 #### Q: Does Largo provide a way to customize the headline and excerpt for Google so they fit the character requirements of the SERP (Search Engine Results Page)?
@@ -142,6 +149,7 @@ We don't recommend using SEO plugins, because they duplicate much of the functio
 * Twitter card markup
 * Open graph tags
 * Canonical URLs, etc.
+
 ***
 
 #### Q: Can I make all external links (off my site) open in a new window?
@@ -154,6 +162,7 @@ We don't recommend using SEO plugins, because they duplicate much of the functio
 * Open the **post's edit screen**
 * Go to the **Post Prominence** box on the right
 * Check the box for **Footer Featured Widget**
+
 ***
 
 #### Q: How do I change the link for the Donate button?
@@ -169,6 +178,7 @@ This will be improved significantly in our next release of Largo (v0.4). There w
 1. Stories in the series
 2. Stories by tagged, starting with the least common
 3. Stories in the category, starting with latest posts
+
 ***
 
 #### Q: Why is my site taking so long to load?
