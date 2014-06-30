@@ -16,6 +16,8 @@
 	- [[Contact pages]]
 	- [[Sidebars and widgets]]
 	- [[Using plugins]]
+	- [[Help Desk]]
+		- [[FAQ]]
 - Codex:
 	- [[Glossary]]
 	- [[The contents of the inc directory]]
